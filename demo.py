@@ -10,22 +10,15 @@ def compute_full_extracted_triples(intput_sentence):
         {
         "role": "user",
         "content": 
-        ''' 
-        As an AI trained in entity extraction and relationship extraction. You're an advanced AI expert, so even if I give you a complex sentence, you'll still be able to perform the relationship extraction task. The output format MUST be a dictionary where key is the source sentence and value is a list consisting of the extracted triple.
-        A triple is a basic data structure used to represent knowledge graphs, which are structured semantic knowledge bases that describe concepts and their relationships in the physical world. A triple MUST has THREE elements: [Subject, Relation,  Object]. For example, "[Subject:FinSpy malware, Relation:was the final payload]"(2 elements) and "[Subject:FinSpy malware, Relation:was, Object:the final payload, None:that will be used]"(4 elements) do not contain exactly 3 elements and should be discard.The subject and the object are Noun. The relation is a relation that connects the subject and the object, and expresses how they are related. For example, [Formbook, is, malware] is a triple that describes the relationship between the malware Formbook and the concept of malware. 
-        In entity extraction, you follow those rules:
-        Rule 1: Only extract triples that are related to cyber attacks. If a sentence does not have any triple about cyber attacks, skip the sentence and do not print it in your output.\
-        Rule 2: Make sure your results is a python dictionary format. One example is {source sentence1:[[subject1, relation1, object1],[subject2, relation2, object2]...],source sentence2:[[subject3, relation3, object3],[subject4, relation4, object4]...]} 
-        Rule 3: You must use ellipsis in source sentence to save space. The output format should be  "First word Second word ... penu word last word", For example, "The malware ... the system".
-        '''
+        '''Extract cyber attack related triples from text. Each triple must have exactly 3 elements: [Subject, Relation, Object]. Output format: {source sentence:[[subject1, relation1, object1],...]}. Use ellipsis in source sentence. Example: "The malware ... the system".'''
         },
         {
         "role": "assistant",
-        "content": "I got it."
+        "content": "I understand."
         },
         {
         "role": "user",
-        "content": "Here is one sentence from example article:\"Leafminer attempts to infiltrate target networks through various means of intrusion: watering hole websites, vulnerability scans of network services on the internet, and brute-force/dictionary login attempts.\""
+        "content": "Example: \"Leafminer attempts to infiltrate target networks through various means of intrusion: watering hole websites, vulnerability scans of network services on the internet, and brute-force/dictionary login attempts.\""
         },
         {
         "role": "assistant",
@@ -33,20 +26,14 @@ def compute_full_extracted_triples(intput_sentence):
         },
         {
         "role": "user",
-        "content": "Here is one sentence from example article:\"Kismet is also a powerful tool for penetration testers that need to better understand their target and perform wireless LAN discovery.\""
+        "content": "Example: \"Kismet is also a powerful tool for penetration testers that need to better understand their target and perform wireless LAN discovery.\""
         },
         {
         "role": "assistant",
         "content": "{Kismet is ... wireless LAN discovery.:[[SUBJECT:Kismet,RELATION:is a powerful tool for, OBJECT:penetration testers],[SUBJECT:testers, RELATION:understand, OBJECT:their target],[SUBJECT:testers,RELATION: perform, OBJECT:wireless LAN discovery]]}."
         },
         {"role": "user",
-        "content": 
-        """
-        \Here are my new sentence, extract all possible entity triples from it. Now, I start to give you sentence.\""
-        """+text+
-        """\"Now, my input text are over. You MUST follow the rules I told you before. 
-        """
-        },
+        "content": "Extract triples from: "+text}
         ]
         return promptmessage
 
@@ -54,7 +41,7 @@ def compute_full_extracted_triples(intput_sentence):
         promptmessage = [
         {
         "role": "user",
-        "content":'You are responsible for combining the three different entity extraction results from three different assistants extracting from the same sentence into one. The triple is a basic data structure used to represent knowledge graphs, which are structured semantic knowledge bases that describe concepts and their relationships in the world. A triple MUST have THREE elements: [subject, relation, object]. The subject has the prefix "SUBJECT:",the relation has prefix "RELATION:", the object has prefix "OBJECT:", some triples examples are "[SUBJECT:The user, RELATION:logs in, OBJECT:the system],[SUBJECT:The system, RELATION:stores, personal information],[SUBJECT:The system, RELATION:sends, OBJECT:personal information]". The final results is a python dictionary format. One example of result is {source sentence1:[[subject1, relation1, object1],[subject2, relation2, object2]...]}. Some assistants use ellipses to simplify words source sentence, for example "The exploit was delivered through a Microsoft Office document and the final payload was the latest version of FinSpy malware." and "The exploit ... FinSpy malware." and "The exploit was delivered ... latest version of FinSpy malware." are the same one sentence. So when you find the different dictionary key that has same beginning and ending words, you should combine them into one dict. I would like you to integrate these three results into one and discard the exact same triples and discard triples that do not contain exactly 3 elements, for example "[SUBJECT:FinSpy malware, RELATION:was the final payload]"(2 elements) and "[SUBJECT:FinSpy malware, RELATION:SUBJECT:was, OBJECT:the final payload, UNKNOWN:that will be used]"(4 elements) do not contain exactly 3 elements and should be discard. The source sentence is '+str(inSent)+', the extracted triples result are'+str(inlist)+'Just answer me the final python dictionary with triple format without any other words.'
+        "content":'Combine three entity extraction results into one. Each triple must have 3 elements: [SUBJECT:subject, RELATION:relation, OBJECT:object]. Output format: {source sentence:[[subject1, relation1, object1],...]}. Combine identical sentences with ellipsis. Input sentence: '+str(inSent)+', extracted triples: '+str(inlist)
         },
         ]
         return promptmessage
@@ -64,21 +51,19 @@ def compute_full_extracted_triples(intput_sentence):
         {
         "role": "user",
         "content": 
-        ''' 
-        You play the role of an entity extraction expert and modify/simplify/split the text (extracted multiple triples) in the entity extraction result I gave you (a python dictionary with key as the source sentence with ellipsis and value as the extracted triples) according to the following rules. A triple is a basic data structure used to represent knowledge graphs, which are structured semantic knowledge bases that describe concepts and their relationships in the physical world. A triple consists of three elements: [SUBJECT, RELATION,OBJECT]. The subject and the object are entities, which can be things, people, places, events, or abstract concepts. The relation is a relation that connects the subject and the object, and expresses how they are related. For example, [Formbook, is, malware] is a triple that describes the relationship between the malware Formbook and the concept of malware.
-        Rule 1: If the subject or object in a triple contains pronouns such as it, they, malware, Trojan, attack, ransomware, or group, replace them with a specific name as much as possible according to the context, such as "CVE-xxx" or "XLoader" will replace "it" or "malware" if context has this relationship information.
-        Rule 2: Focus on malware, Trojan horse, CVE, or hacking organization as the subject of the triples, if a subject with "malware" or "Trojan horse" or "CVE" or "hacking organization" is found and has additional suffixes, remove the suffixes.
-        Rule 3: Split a complex triple into multiple simpler forms. For example, [Formbook and XLoader, are,malware] should be split into [Formbook,is,malware] and [XLoader,is,malware].
-        Rule 4: If the [subject,relation] in a triple can be formed into a new [subject,relation,object] triple because relation itself has a new object in it, create a new triple while keeping the original one. 
-        Rule 5: If the object can be simplified to a more concise, generic expression, create a new triple while keeping the original one. For example, ["Formbook", "save", "XLoader in desktop"] MUST has a new triple ["Formbook", "save", "XLoader"] due to the object "XLoader in desktop" can be simplified to "XLoader".
-        Rule 6: Simplify the subject, object, and relation into a more concise, generic expression.
-        Rule 7:When you encounter a subject or object that contains modifiers and adjectives, remove them. For example, [a notorious Formbook malware] should be simplified to [Formbook].
-        Rule 8:When you encounter a plural or past tense form, convert it to singular or present tense. For example, [Windows users] should be converted to [Windows user].
-        Rule 9:When you encounter an MD5, registry, path, or other identifier that contains prefixes, remove them. For example, [md5 xxxxx] should be simplified to [xxxxx].
-        Rule 10:When you encounter a proper noun that contains a suffix, remove the suffix. For example, ["Specific names of a malware/ransomware/trojan" malware/ransomware/trojan] should be simplified to ["Specific names of a malware/ransomware/trojan"]
-        Rule 11: Make sure the subject has a prefix "SUBJECT:", the relation has prefix "RELATION:", the object has prefix "OBJECT:", a triple example is "[SUBJECT:Formbook, RELATION:save, OBJECT:a file]
-        '''
-        +"Here is my entity extraction result:"+str(text)+"Now, you apply the rules I told you before. Write down your though, think it step by step. If all triple don't need to be modified based on specific rule, just write down 'no change'.In the end, you MUST tell me the final new entity extraction result. Make sure your results contain a dictionary where key is the original sentence and value is a list consisting of the extracted triple for subsequent information extraction."
+        '''Modify triples following these rules:
+1. Replace pronouns with specific names
+2. Remove suffixes from malware/Trojan/CVE/hacking org subjects
+3. Split complex triples into simpler ones
+4. Create new triples from relation objects
+5. Simplify objects to concise expressions
+6. Remove modifiers and adjectives
+7. Convert plural/past tense to singular/present
+8. Remove prefixes from identifiers
+9. Remove suffixes from proper nouns
+10. Use SUBJECT:, RELATION:, OBJECT: prefixes
+
+Input: '''+str(text)
         },
         ]
         return promptmessage
@@ -134,7 +119,6 @@ def compute_full_extracted_triples(intput_sentence):
     import re
     from tqdm import tqdm
 
-
     single_sentence=intput_sentence
     import ast
     content_first_extraction=''
@@ -147,7 +131,7 @@ def compute_full_extracted_triples(intput_sentence):
         completion = client.chat.completions.create(
             model=model,
             messages=generate_prompt(single_sentence),
-            max_tokens=2048,
+            max_tokens=1024,
             temperature=temperature_list[tried_times],
         )
         content_first_extraction = completion.choices[0].message.content
@@ -166,8 +150,8 @@ def compute_full_extracted_triples(intput_sentence):
     completion = client.chat.completions.create(
         model=model,
         messages=generate_prompt_basedon3(single_sentence,first_answer_list[0:3]),
-        max_tokens=2048,
-        temperature=0.5,
+        max_tokens=1024,
+        temperature=0.7,
     )
     content_first_extraction_merged=completion.choices[0].message.content
     content_first_extraction_merged=get_only_triples(content_first_extraction_merged)
@@ -175,11 +159,12 @@ def compute_full_extracted_triples(intput_sentence):
     completion = client.chat.completions.create(
         model=model,
         messages=generate_prompt_postprocess(content_first_extraction_merged),
-        max_tokens=2048,
+        max_tokens=1024,
         temperature=0.7,
     )
     content_simple_version = completion.choices[0].message.content
     extracted_text = get_only_triples(content_simple_version)
+    print("\nEXTRACTED TEXT:", extracted_text)
     return extracted_text
 
 def clean_full_extracted_triples(text):
@@ -216,101 +201,21 @@ def clean_full_extracted_triples(text):
     return triple_only_text
 
 def merge_extracted_triples(longmem,shortmem,sentence):
-    #v1.5
     def generate_prompt(longmem,shortmem,sentence):
         promptmessage = [
         {
         "role": "user",
         "content": 
-        '''You are a triples integration assistant. Triple is a basic data structure, which describes concepts and their relationships. A triple in long-term and short-term memory MUST has THREE elements: [Subject, Relation, Object]. You are now reading a whole article and extract all triples from it. But you can only see part of the article at a time. In order to record all the triples from a article, you have the following long-term memory area to record the triples from the entire article. long-term memory stores information on the aricle parts you have already read.
-        -The start of the long-term memory area-
-        #Triples will be added here
-        -The end of the short-term memory area-
-        Second, you now see a part of this article. Based on this part, you already extract such triples and place them in your short-term memory: 
-        -The start of the short-term memory area-
-        #Triples will be added here
-       -The end of the short-term memory area-
-        Third, now review your long-term memory and short-term memory. Modify the short-term memory into a new short-term memory. You should follow following rules to modify triples in short-term memory to make them consistent with triples in long-term memory. You should write down how you use the rule to modify the triples in short-term memory. In additional, if you find any triples in long-term memory also need to modify based on the rule, you should also write down how you use the rule to modify the triple in long-term memory, and then add new modified triples in short-term memory as a new triple.
-        
-        Rule 1. You notice that in these triples, some triples have subjects and objects that contain partially identical terms and refer to the same specific nouns, but these specific nouns have prefixes/suffixes/modifiers that make them not identical. You should delete the prefixes/suffixes/modifiers and unify them into the same specific nouns.
-        
-        Before rule: [the Formbook, is designed to run as, a deleter] [Formbook sample, is designed to run as, one-time encryptor]
+        '''Merge triples from long-term and short-term memory. Rules:
+1. Unify identical terms by removing prefixes/suffixes/modifiers
+2. Use specific names for malware/CVE/Trojans/hacker orgs
+3. Don't create new triples
+4. Don't add example words
+5. Output format: {source sentence:[[subject1, relation1, object1],...]}
 
-        After rule: [Formbook, is designed to run as, a deleter] [Formbook, is designed to run as, one-time encryptor]
-
-        Explanation: The words "the Formbook" and "Formbook sample" refer to the same entity, so they are unified to use the exact same subject "Formbook" for consistency.
-        
-        Rule 2. Be especially careful that when you meet specific names of malware,CVE, Trojans, hacker organizations, etc., always use their specific names and remove the prefixes/suffixes/modifiers.
-        
-        Before rule: [Malware Formbook, is, malware] 
-        
-        After rule: [Formbook, is, malware]
-        
-        Explanation: The word "Formbook" is a specific name of malware, so it should be used as the subject of the triple and the prefix "Malware" should be removed.
-        
-        Rule 3. Don't add unexisting triples to your new short-term memory. 
-    
-        Suppose you find in long-term memory: [the malware, download, Leafminer] and in short-term memory: [Formbook, is, malware]. You cannot add a new triple in new short term memory: [Formbook, download, Leafminer]. Because you don't have evidence that "the malware" in the long-term memory specifically refers to "Formbook".
-        
-        Rule 4. Don't add unexisting triples that don't exsit in long-term memory or short-term memory to your new short-term memory. You should add triples from long-term memory or short-term memory to your new short-term memory, not from your imagination and selfcreation
-        
-        Rule 5. Don't add any example word like 'Formbook','XLoader','Leafminer', 'FinSpy', 'Kismet' in your new short-term memory area, they are just example words not the real triples in the long term memory area or short term memory area.
-        
-        Rule 6. new short-term memory area must be started with \'-The start of new short-term memory area-\' and ended with \'-The end of new short-term memory area-\'. A triple in new short-term memory MUST has THREE elements: [Subject, Relation, Object]. 
-        '''
+Long-term memory: '''+str(longmem)+'''
+Short-term memory: '''+str(shortmem)
         },
-        {"role": "assistant",'content': 'Yes, I understand and totally follow the rules.'},
-        {"role": "user",'content': '''
-         -The start of the long-term memory area-  
-         [SUBJECT:AgumonHacker, RELATION:disrupts, OBJECT:network operations], [SUBJECT:HackGroup Gabumon, RELATION:targets, OBJECT:financial institutions], [SUBJECT:Malware Biyomon, RELATION:steals, OBJECT:personal data], [SUBJECT:CyberAttack 2042, RELATION:compromised, OBJECT:database systems],  [SUBJECT:A sample of Biyomon, RELATION:save, OBJECT:a payload]
-         -The end of the long-term memory area-
-
-        -The start of the short-term memory area-  
-         [SUBJECT:The AgumonHacker Trojan, RELATION:created by, OBJECT:a sophisticated hacker group], [SUBJECT:Gabumon hackers, RELATION:launched, OBJECT:series of phishing campaigns], [SUBJECT:Biyomon malware program, RELATION:encrypts, OBJECT:files for ransom], [SUBJECT:Attack in 2042, RELATION:led to, OBJECT:sensitive leaks],[SUBJECT:Biyomon, RELATION:run, OBJECT:payload]
-        -The end of the short-term memory area-
-         '''
-         },
-        {"role": "assistant",'content': 
-         '''
-         Modifications required based on the rules:
-        Apply Rule 1 and Rule 2: Unify subjects and objects with partially identical terms and remove any prefixes/suffixes/modifiers, particularly for specific names like malware and hacker groups.
-        Modified short-term memory:
-
-        [SUBJECT:The AgumonHacker Trojan, RELATION:created by, OBJECT:a sophisticated hacker group] → [SUBJECT:AgumonHacker, RELATION:created by, OBJECT:sophisticated hacker group]
-        [SUBJECT:Gabumon hackers, RELATION:launched, OBJECT:series of phishing campaigns] → [SUBJECT:HackGroup Gabumon, RELATION:launched, OBJECT:phishing campaigns]
-        [SUBJECT:Biyomon malware program, RELATION:encrypts, OBJECT:files for ransom] → [SUBJECT:Malware Biyomon, RELATION:encrypts, OBJECT:files for ransom]
-        [SUBJECT:Attack in 2042, RELATION:led to, OBJECT:sensitive leaks] → [SUBJECT:CyberAttack 2042, RELATION:led to, OBJECT:sensitive data leaks]
-
-        I also find a triple in long-term memory that needs to be modified based on Rule 1 and Rule 2:
-
-        [SUBJECT:A sample of Biyomon, RELATION:save, OBJECT:a payload] → [SUBJECT:Biyomon, RELATION:save, OBJECT:payload]
-
-        Apply Rule 3 and 4 and 5: We must ensure we do not create unexisting triples when merging the memories.
-        After applying the modifications, we now create a new short-term memory area:
-
-        -The start of new short-term memory area- 
-        [SUBJECT:AgumonHacker, RELATION:created by, OBJECT:sophisticated hacker group], 
-        [SUBJECT:HackGroup Gabumon, RELATION:launched, OBJECT:phishing campaigns],
-        [SUBJECT:Biyomon, RELATION:encrypts, OBJECT:files for ransom],
-        [SUBJECT:CyberAttack 2042, RELATION:led to, OBJECT:sensitive data leaks],
-        [SUBJECT:Biyomon, RELATION:run, OBJECT:payload],
-        [SUBJECT:Biyomon, RELATION:save, OBJECT:payload] 
-        -The end of new short-term memory area-
-         '''   },
-        {"role": "user",'content': 
-        '''
-        Good. Now, let's swtich to another article. 
-        -The start of the long-term memory area-
-        '''+str(longmem)+'''
-        -The end of the long-term memory area-
-    
-        -The start of the short-term memory area-
-        '''+str(shortmem)+'''
-        -The end of the short-term memory area-
-        
-        Now, follow the rules. Write down how you use the rule to modify the triples in short-term memory. Then, write down new short-term memory which must be started with \'-The start of new short-term memory area-\' and ended with \'-The end of new short-term memory area-\'
-        '''
-        },      
         ]
         return promptmessage
 
@@ -337,7 +242,7 @@ def merge_extracted_triples(longmem,shortmem,sentence):
     completion = client.chat.completions.create(
         model=model,
         messages=generate_prompt(longmem,shortmem,sentence),
-        max_tokens=2048,
+        max_tokens=1024,
         temperature=0.7,)
     
     fullanswer = completion.choices[0].message.content   
@@ -469,8 +374,8 @@ def full_article_to_longmem(single_article):
             triple = compute_full_extracted_triples(this_time_test)
             clean_triple_forMEM = triple
             
-        print('This time short-term memory is:')
-        print(clean_triple_forMEM)
+        print('\nThis time short-term memory is:')
+        #print("\nCLEANED TRIPLE:", clean_triple_forMEM)    
         
         if i == 0:
             if check_brackets(clean_triple_forMEM):
@@ -510,7 +415,7 @@ def full_article_to_longmem(single_article):
             else:
                 longmem=original_longmem
                 print('Short-term memory is not a triple')
-            print('After merging: The new long-term memory is:')
+            print('\nAfter merging: The new long-term memory is:')
             print(longmem)      
             import pandas as pd
 
@@ -518,16 +423,26 @@ def full_article_to_longmem(single_article):
             new_data = pd.DataFrame({'single_article': [str(single_article)], 'longmem': [str(longmem),]})
 
             try:
-                # Read the existing Excel file
-                longmem_cache = pd.read_excel('RQ2 result cache backup.xlsx')
+                # Read the existing Excel file with explicit encoding handling
+                longmem_cache = pd.read_excel('RQ2 result cache backup.xlsx', engine='openpyxl')
+                # Convert any problematic strings to proper encoding
+                longmem_cache = longmem_cache.map(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8') if isinstance(x, str) else x)
                 # Add new data to the end of existing data
                 longmem_cache = pd.concat([longmem_cache, new_data], ignore_index=True)
             except FileNotFoundError:
                 # If the file does not exist, use the new data directly
                 longmem_cache = new_data
+            except Exception as e:
+                print(f"Error reading Excel file: {e}")
+                # If there's any error, create new file
+                longmem_cache = new_data
 
-            # Save the updated data to the Excel file
-            longmem_cache.to_excel('RQ2 result cache backup.xlsx', index=False)
+            # Ensure all strings are properly encoded before saving
+            longmem_cache = longmem_cache.map(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8') if isinstance(x, str) else x)
+            
+            # Save the updated data to the Excel file with explicit encoding
+            with pd.ExcelWriter('RQ2 result cache backup.xlsx', engine='openpyxl') as writer:
+                longmem_cache.to_excel(writer, index=False)
             # Add the result to the cache
             
     return longmem

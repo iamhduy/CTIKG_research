@@ -1,6 +1,5 @@
-string,,,,,
-"
-Weevely is a command line weaponized PHP web shell dynamically extended over the network at runtime and is designed for remote administration and pen testing. It provides a telnetlike console through a PHP script running on the target, even in restricted environments.
+string
+"Weevely is a command line weaponized PHP web shell dynamically extended over the network at runtime and is designed for remote administration and pen testing. It provides a telnetlike console through a PHP script running on the target, even in restricted environments.
 The low footprint agent and over 30 modules shape an extensible framework to administrate, conduct a pentest, postexploit, and audit remote web accesses in order to escalate privileges and pivot deeper in the internal networks.
 
 The remote agent is a very low footprint PHP script that receives dynamically injected code from the client, extending the client functionalities over the network at runtime. The agent code is polymorphic and hardly detectable by AV and HIDS. The communication is covered and obfuscated within the HTTP protocol using steganographic techniques.
@@ -34,7 +33,7 @@ Weevely also provides python API which can be used to develop your own module to
 You can download Weevely here:
 Weevelyv3.2.0.zip
 Or read more here.
-Share94Tweet18Share37139 Shares ",,,,,
+Share94Tweet18Share37139 Shares "
 "Popular webmail provider Yahoo has been slammed with a new emailbased attack that seizes control of victims accounts. Bitdefender Labs discovered the ongoing campaign today and are once again warning users about the dangers of clicking spammy links.
 The account hijacking begins with a spam message with a short link to an apparently harmless session of the reliable news channel MSNBC (hxxp://www.msnbc.msn.comim9.net[removed]).
 A closer look at the real link reveals that the true domain is not part of MSNBC, but a crafty domain composed of subdomains at hxxp://comim9.net.
@@ -46,257 +45,1162 @@ At this point, miscreants have full access to the victims contact list until the
 Why is your account important for crooks? If you are asking yourselves why crooks take an interest in your email accounts and harvest the email addresses of your friends, the answer is simple. To send more spam on your behalf.
 Miscreants cannot register accounts automatically on webmail providers such as Yahoo, Google, Hotmail and the like because registrants need to fill in CAPTCHA. It takes time, and real people, to type the signs in. That, in turn, costs money. Stealing active accounts is a costeffective way for an operator to automate attacks and, at the same time, allows them to read your contacts and get more victims.
 Whats to be done?Log out from your email accounts every time youre done reading or writing your emails.Never click on links in spam emails.Keep your antivirus and software updated.Attack description provided by malware researchers Razvan Benchea and Octavian Minea.All product and company names mentioned herein are for identification purposes only and are the property of, and may be trademarks of, their respective owners. agsmalicious link MSNBC slider spam email xss Yahoo account 
-",,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+"
+"A few days ago, Microsoft published the critical MS16120 security bulletin with fixes for vulnerabilities in Microsoft Windows, Microsoft Office, Skype for Business, Silverlight and Microsoft Lync.
+One of the vulnerabilities  CVE20163393  was reported to Microsoft by Kaspersky Lab in September 2016.
+
+Heres a bit of background on how this zeroday was discovered. A few of months ago, we deployed a new set of technologies in our products to identify and block zeroday attacks. These technologies proved their effectiveness earlier this year, when we discovered two Adobe Flash zeroday exploits  CVE20161010 and CVE20164171. Two Windows EoP exploits have also been found with the help of this technology.  One is CVE20160165.  The other is CVE20163393. 
+Like most zeroday exploits found in the wild today, CVE20163393 is used by an APT group we call FruityArmor. FruityArmor is perhaps a bit unusual due to the fact that it leverages an attack platform that is built entirely around PowerShell. The groups primary malware implant is written in PowerShell and all commands from the operators are also sent in the form of PowerShell scripts.
+In this report we describe the vulnerability that was used by this group to elevate privileges on a victims machine. Please keep in mind that we will not be publishing all the details about this vulnerability because of the risk that other threat actors may use them in their attacks.
+Attack chain description
+To achieve remote code execution on a victims machine, FruityArmor normally relies on a browser exploit. Since many modern browsers are built around sandboxes, a single exploit is generally not sufficient to allow full access to a targeted machine. Most of the recent attacks weve seen that rely on a browser exploit are combined with an EoP exploit, which allows for a reliable sandbox escape. 
+In the case of FruityArmor, the initial browser exploitation is always followed by an EoP exploit. This comes in the form of a module, which runs directly in memory. The main goal of this module is to unpack a specially crafted TTF font containing the CVE20163393 exploit. After unpacking, the module directly loads the code exploit from memory with the help of AddFontMemResourceEx. After successfully leveraging CVE20163393, a second stage payload is executed with higher privileges to execute PowerShell with a meterpreterstyle script that connects to the CC.
+EOP zeroday details
+The vulnerability is located in the cjComputeGLYPHSETMSFTGENERAL function from the Win32k.sys system module. This function parses the cmap table and fills internal structures. The CMAP structure looks like this:
+
+The most interesting parts of this structure are two arrays  endCount and startCount. The exploit contains the next cmap table with segments:
+
+To compute how much memory to allocate to internal structures, the function executes this code:
+
+After computing this number, the function allocates memory for structures in the following way:
+
+The problem is that if we compute the entire table, we will achieve an integer overflow and the cnt variable will contain an incorrect value.
+In kernel, we see the following picture:
+
+The code allocates memory only for 0x18 InternalStruct but then there is a loop for all the segments range (this value was extracted from the file directly):
+
+Using the cmap table, the v44 variable (index) could be controlled and, as a result, we get memory corruption. To achieve it, the attacker can do the following:
+
+Make an integer overflow in win32k!cjComputeGLYPHSETMSFTGENERAL
+Make a specific segment ranges in font file to access interesting memory.
+
+What about Windows 10? As most of you know, the font processing in Windows 10 is performed in a special user mode process with restricted privileges. This is a very good solution but the code has the same bug in the TTF processing.
+
+As a result, if you load/open this font exploit in Windows 10, you will see the crash of fontdrvhost.exe:
+
+Kaspersky Lab detects this exploit as:
+
+HEUR:Exploit.Win32.Generic
+PDM:Exploit.Win32.Generic
+
+We would like to thank Microsoft for their swift response in closing this security hole.
+ More information about the FruityArmor APT group is available to customers of Kaspersky Intelligence Services. Contact: intelreportskaspersky.com
+
+"
+"RidRelay is a Pythonbased tool to enumerate usernames on a domain where you have no credentials by using a SMB Relay Attack with low privileges. (adsbygoogle = window.adsbygoogle  []).push();
+How RidRelay SMB Relay Attack Works RidRelay combines the SMB Relay attack, common lsarpc based queries and RID cycling to get a list of domain usernames. It takes these steps: Spins up an SMB server and waits for an incoming SMB connection The incoming credentials are relayed to a specified target, creating a connection with the context of the relayed user Queries are made down the SMB connection to the lsarpc pipe to get the list of domain usernames. This is done by cycling up to 50000 RIDs For best results, use with Responder. (adsbygoogle = window.adsbygoogle  []).push();
+Using RidRelay to Enumerate Usernames First, find a target host to relay to. The target must be a member of the domain and MUST have SMB Signin off. CrackMapExec can get this info for you very quick!
+Start RidRelay pointing to the target:
+python ridrelay.py t 10.0.0.50 1 python ridrelay.py t 10.0.0.50 OR Also output usernames to file python ridrelay.py t 10.0.0.50 o pathtooutput.txt 1 python ridrelay.py t 10.0.0.50 o pathtooutput.txt
+You can download RidRelay here: ridrelaymaster.zip Or read more here. Share155Tweet1061Share261 Shares "
+" In the spirit of this upcoming Halloween season, we thought wed provide you with a list of the top five scariest mobile threats in our book.
+The list is organized from least to most haunting, based on my own humble opinion gathered from several years as a mobile threat researcher. Of course, my opinion has also been formed by the data weve collected within the last few months that shows which threats have been terrorizing customers the most. Without further ado, these are the top threats that haunt my dreams.
+5) The clinking of locks and chains
+Although not the most prevalent mobile malware (thank goodness), mobile ransomwares nastiness will give you the chills. It starts by tricking users into giving away their device administrator rights. Afterwards, the ransomware offers atreat of locking the device from any use unless you pay a ransom.Even scarier, some mobile ransomware threatens prosecution by law enforcement, claiming illegal activities have been conducted on the device. This is all a hoax, as law enforcement would never request paying a fine through payment methods like Bitcoin or gift cards. The most popular mobile ransomware family is detected by Malwarebytes as Android/Ransom.SLocker.
+4) Guerrilla warfareAs a mobile researcher, it sometimes feels like a war out there. This is especially true with the mobile malwareAndroid/Trojan.Guerrilla. Guerrilla warfare can be described as irregular, which sums up this Guerrillas tactics of obfuscating malware scanners. Infections usually come with multiple variants of Guerrilla running on the device. However, for every move they make, we have a counter move. The war is neverending.
+3) Dashing from ghosts? No, to the top of detections list!
+Android/Adware.MobiDash will make your skin crawl! Its one most highlydetected threats weve seen on customers Android devices! As if possessed, MobiDash goes above and beyond the typical lowlevel adware. It starts by sneaking its way into getting device administration rights. Once given, the user will be doomed with ads on his lock screen.Good luck uninstalling, as some versions are especially good athiding themselves in plain sight!
+2) Lurking in the shadowsof code!
+Another highranking threat found on customers Android devices, Android/Trojan.HiddenAds, is a smooth criminal. Also known as Android/Trojan.Hiddad, its haunting ability to effectively hide its malicious code is terrifying! In fact, it often bypasses Google Play Protects verification system. Thus, apps infected with HiddenAds make it onto the Play Store.After installing on a device, periodic fullscreen ads will haunt you!
+1) The one that keeps me up at night: Adups
+Seriously, I have lost sleep over this one. Adups and I have a long history:Mobile Menace Monday: Adups, old and new Mobile Menace Monday: upping the ante on Adups Adups comes in many forms, but the most prevalent is Android/PUP.Riskware.Autoins.Fota. This variant can potentially auto install malware like Android/Trojan.Guerrilla, and Android/Trojan.HiddenAds. As addressed in the blogs linked above, its a preinstalled system app(s). Thus, it cannot be uninstalled through the devices information page, only disabled. However, the nightmare gets worseAdups cant even be disabled. Not even a mobile scanner can remove or disable it.
+So how do we deal with this Freddy Krueger of a mobile threat? Well, youre going to have to defeat it in a different realm: the realm of ADB command line tools, a part of Googles Android Studio. Luckily, we found a wake to wake up from the nightmare, as we recently updated a guide on how to fully uninstall (not just disable) Adups.Beware, though, this tutorial is not for the faint of heart, and only recommended for advanced users. Safe room When the boogie men of mobile threats try to break through the walls, we have a safe room for you:Malwarebytes for Android keeps the scariest mobile threats at bay! Stay safe out there!
+"
+" Update 08/14: The campaign has moved to another advertiser (AOL) and new Azure domain:
+
+Malvertising URL:
+imp.bid.ace.advertising.com/redactedpmcpmprice=0.545/redacteddref=http://www.ebay.com/sch/i.html?nkw=jazzywheelchairbatterypgn=3skc=100rt=nc
+First redirection (Azure website):
+v5tr34a09.azurewebsites.net/?=a09vv5vtrkp
+Second redirection:
+mbiscotti.com/?Xz29TuVbablQc
+Angler exploit kit:
+abgzdbergzr.jeppe.iemooentypo.com/redacted
+abgzdbergzr.le9.anguoantimalware.net/abgzdbergzr/redacted
+Our telemetry captured this malvertising on eBay.comand the cost per thousand impressions (CPM) for this ad was 0.545.Visitors that were served that ad were redirected to theAnglerexploit, known for dropping ransomware and ad fraud malware.
+  Original story 
+The actors behind the recentYahoo! malvertisingattack are still very much active and able to infect people who browse popularwebsites.
+We have been tracking this campaign and noticed that is has recently moved to a newad network used by many top publishers.
+
+weather.com 121M visits per month
+drudgereport.com 61.8M visits per month
+wunderground.com 49.9Mvisits per month
+findagrave.com 6Mvisits per month
+webmaila.juno.com 3.6Mvisits per month
+my.netzero.net 3.2Mvisits per month
+sltrib.com 1.8Mvisits per month
+
+Stats according to SimilarWeb.com
+The malvertising is loaded via AdSpirit.de and includes a redirection to anAzure website. Note how both URLs are using HTTPS encryption, making it harder to detect the malicious traffic at the network layer.
+
+Redirection chain
+
+Publishers website
+https://pub.adspirit.de/adframe.php?pid=[redacted]
+https://pr235s.azurewebsites.net/?=pr235s981ef52345
+abcmenorca.net/?xvQtdNvLGcvSehsbLCdz
+Angler Exploit Kit
+
+
+Malwarebytes AntiExploit users were protected against this attack.
+We informed the ad network and although they did not immediately get back to us, the rogue advert wastaken down.
+"
+"Share
+
+Cases of malware and crimeware incidents are reported daily around the world. Indeed, the number of reports, detections and threats grows constantly.
+
+Within the world of IT security, one of the biggest concerns for companies and users is malicious code that can compromise their systems and/or information networks. This concern is not at all unfounded, as cases of malware and crimeware incidents are reported daily around the world. Indeed, the number of reports, detections and threats observed by the various antivirus laboratories grows constantly and daily, and shows increasing diversity.
+2015 was no exception, and not only was the growth of cybercrime observed worldwide but we also saw a change in its aggressiveness and in the types of attack (ransomware being one particular example).
+IOCTA (Internet Organized Crime Threat Assessment) reported a shift in the way attackers acted, with confrontation one of the most significant changes. Further developments include the rise of zombie computer networks that seek to infect users systems with ransomware variants  so as to extort money from them  as well as cybercriminals who use physical force to intimidate security companies into not exposing their threats.
+The cybercrime ecosystem has different actors who cover a wide framework of criminal activity.
+When speaking of malware campaigns, we do not mean directed attacks or APTs (advanced persistent threats), but the mass propagation of malware commonly used to steal information from users and companies. 2015 presented different challenges for identifying and blocking mass campaigns that spread malware through channels such as email, mass storage devices or compromised websites that redirect their visitors to different types of exploits. The increasingly rapid changes in code and the volume of threats that affect companies are some of the challenges that victims have to face.
+The cybercrime ecosystem has different actors who cover a wide framework of criminal activity involving goods and services that provide infrastructural support for malicious action. Such actions, involving banking trojans and RATs (remote access tools) were the subject of several investigations on the part of security agencies.
+However, cybercriminals continue to find ways to reach users. Such is the case with regionalized malware campaigns like Operation Liberpy, initially spread through email; Operation Buhtrap, infecting its victims through compromised websites that served malware installers; Brolux, a trojan that attacked Japanese online banking sites; and cases with global impact such as Dridex.
+It is important to stress that these campaigns affect not only home users, but small businesses, mediumsized companies, and even large enterprises. According to a report by the Ponemon Institute, the average cost of these incidents to companies worldwidewas 7.7 million for the first half of 2015. Some of the companies cited in the report lost up to 65 million as a consequence of security incidents they suffered.
+Botnets, zombies and global campaigns
+
+For several years, zombie computer networks, also known as botnets, have been the most important infrastructural component in the world of cybercrime actors. Their role in the world of cybercrime is central, within a model where the purchase and sale of services, information theft, or campaigns spreading ransomware are facilitated by botnets.
+In other words, hundreds or thousands of computers that are part of such networks are used for sending spam, launching denial of service attacks, and performing other malicious actions.
+The threat impact of botnets has inspired many indepth studies on how to identify their behavior: that is, how to identify patterns that allow security teams to detect and block connections within their networks. Moreover, there are security solutions such as those offered by ESET, which include functionalities capable of recognizing these communications, in order to block them and prevent information theft.
+As for botnets dedicated to information theft, ESET Research Laboratories this year reported the actions of Operation Liberpy, a keystroke logger installed on more than 2,000 machines in Latin America  96 in Venezuela  that stole credentials from its victims for more than eight months. This threat, detected as Python/Liberpy, initially spread through emails and then continued to spread via USB devices, taking advantage of Windows shortcut files to infect new systems. This latter propagation method is similar to that used by other families as Bondat, Dorkbot and Remtasu, all mainly active in Latin America.
+Some campaigns are not directed at any particular country, but aim to spread to as many systems as possible. One of the cases reported during 2015 was Waski, a global campaign that sought to install banking trojans worldwide to compromise victims systems with a variant of Win32/Battdil. The campaign started by sending emails that attempted to trick users into opening a document that would do nothing but infect their system.
+Email is one of the main vectors for spreading malicious code and, as in 2014, there were multiple reports in 2015 of massive mail campaigns related to banking trojans such as Dridex through Microsoft Office documents infected with malicious macros, or the spread of ransomware, such as the waves of CTBlocker in midJanuary that reached so many users inboxes.
+Although during 2015 we have seen many joint operations between security agencies, businesses and governments to disrupt or dismantle these criminal networks, we expect to see botnets continue to be a threat and a risk for organizations and users around the world during 2016.
+New families, new techniques, but the same goals
+
+Throughout 2015, the emergence of new families of malicious code or even the incorporation of new features into previously known trojans were reported, such as the case of CoreBot, which added to its capabilities the opportunity to steal banking information from its victims. The evolution of families of malicious code to incorporate new modules or tools is constant, and part of the world of cybercrime.
+Botnets were not the only area of innovation where new families of malware code appeared.
+Botnets were not the only area of innovation where new families of malware code appeared. As noted in last years trends document, Point Of Sale malware was one of the types of malicious code where new players appeared, as was the case with PoSeidon. This code attacks retail outlets and attempts to compromise terminals that take credit card payments and to scan its memory so as to scrape card data. Another instance of PoS malware was Punkey, which appeared a month after PoSeidon and was reported at more than 75 different IP addresses, filtering information from credit cards.
+Incidents involving this kind of threat  including cases reported last year such as Home Depot, UPS or Target  showed that cybercriminals seek to access large retail chains to infect outlets and thus steal data from millions of credit cards.
+Such incidents accelerated the need for a reassessment of how PoS machines are protected and brought to light some curious cases, such as that of certain manufacturers who used the same default password for 26 years.
+At other times, cybercriminals have abused flaws in websites or even fake game pages, where they hosted copies of their malicious code. Through CMS (content management system) plugin flaws, the attackers breached the security of thousands of websites so as to use them to host content harmful for users.
+Collaboration is the key to fighting cybercrime
+Enforcement agencies and businesses around the world collaborate to fight cybercrime and make the internet a safer place. During 2015, in addition to announcements by Europol on how threatening cybercrime has become, joint operations have been performed to disrupt or dismantle networks of zombie computers. Some of these operations, coordinated and distributed around the world, successfully culminated in cases such as the dismantling of Dridex, Liberpy, Ramnit, and the arrest of the creator of the Gozi Trojan.
+In addition to this direct action against certain families of malware, the security agencies also succeeded in arresting a number of cybercriminals associated with criminal forums, such as the case of Darkode where 62 people in 18 countries were arrested for various computer crimes. 
+Where are we going?
+We can see that the barrier separating general purpose malware from directed attacks is becoming more transparent.
+To summarize the most important events of recent times in terms of more general purpose malware, we can see that the barrier separating it from directed attacks is becoming more transparent. Cybercriminals continue to employ different propagation techniques in order to infect as many systems as they possibly can, either by incorporating newlydiscovered vulnerabilities into different exploit kits or by using campaigns to spread malware.
+In other words, the evolution of cybercrime continues to threaten users, and malwarespreading campaigns have grown in scale and achieved different levels of effectiveness. To combat these actions, the collaboration of experts, security agencies and other entities is key to disrupting cybercrime and helping users to enjoy the internet without undue anxiety.
+2016 will continue to reveal the further development of families of malicious code, either in new variants or in the incorporation of features that they did not have before. As cybercrime has become more threatening,companies globally have increased their investment in security by 4.7, and security agencies are enhancing their efforts to take down botnets and to put cybercriminals behind the bars. In other words, 2016 will present new security challenges, but also a more active and organized front in the fight against cybercrime.
+This article is an adapted version of the corresponding section fromESETs2016 trends paper(In)security Everywhere.
+
+
+
+
+Pablo Ramos 8 Jun 2016  01:30PM
+
+
+
+
+Similar Articles
+
+
+
+Cybercrime 
+
+
+
+
+Cyberextortionists take aim at lucrative targets
+
+
+
+
+Cybercrime 
+
+
+
+
+Siegeware: When criminals take over your smart building
+
+
+
+
+Cybercrime 
+
+
+
+
+Maltas leading bank resumes operations after cyberheistinduced shutdown
+
+
+
+
+Cybercrime 
+
+
+
+
+Cybercrime black markets: Dark web services and their prices
+
+
+
+
+Discussion
+
+
+
+
+"
+"facebook
+linkedin
+twitter
+googleplus
+Reading Time: ~2 min.
+Personal computers and devices arent the only targets for ransomware authors. Their methods have evolved to target government offices and profitable organizations, forcing them to rethink their cybersecurity mitigation plans.
+
+Blackheart Records Data Left Exposed Online
+Recently, it has been discovered that a large, unsecured database containing sensitive information on several prominent recording artists from Blackheart Records was left publicly available for an undetermined amount of time. The data that was found included passport scans, banking information, and other sensitive login information for Joan Jett and several of her bandmates. While the database has since been taken offline, the researchers state that there are still hundreds of servers and private machines that use Rsync as a backup, which leaves the server vulnerable.
+GoldenEye Ransomware, New Petya Variant
+In the past week, a new variant of the Petya ransomware has been discovered in the wild. Going by the name GoldenEye, the variant runs the file encryption prior to gaining administrative privileges to modify the MBR (Master Boot Record), unlike Petya which would attempt the MBR modification first. While encrypting the hard drive, GoldenEye displays a fake ChkDsk screen to placate the user until the process is complete. Currently, its main targets appear to be Germanspeaking usersand is primarily spread through spam email campaigns.
+Stegano Embeds Malicious Code in Banner Ads
+In the past few months, researchers have been seeing a steady rise in the malicious ad campaign dubbed Stegano, which places malicious code into the parameters controlling transparency for popup banner ads. This recent campaign could potentially lead to millions of endusers becoming infected, as the altered ads have been found on many hightraffic news sites that typically have higher levels of security. Once the code ensures the system is running Internet Explorer, it begins redirecting the victim to sites hosting Adobe Flash exploitsand attempts to infect and gather sensitive data. Fortunately for many users, several of the Flash exploits have already been resolved, which will lead to fewer infections.
+Pennsylvania Prosecutors Office Pays Ransom
+While the Avalanche Network was being dismantled by cooperating government agencies last week, the prosecutors office in Pennsylvania was recovering from a cyber attack which demanded a 1,400 bitcoin ransom payment. The attack was linked to a 2015 employee breach, but the after effects are still being seen after they decided to pay the ransom. In the sixyear span that the Avalanche group operated, they are credited with infecting over half a million computers across nearly 200 countries.
+Indiana County Out 200,000 After Ransomware Attack
+Recently, it was announced that Madison County, Indiana spent a total of 200,000 in the wake of a ransomware attack on several county offices. With a ransom of 21,000 being paid out to the attackers, the additional expenditures were to recover their infected systems and provide better longterm security, including a backup solution for their data. Even with a high ransom, its not surprising to see the costs continue to rise as the victims scramble to rebuild and begin the hard task of creating and implementing acybersecurity mitigation plan
+About the Author
+Connor Madsen
+Threat Research Analyst
+As a Threat Research Analyst, Connor is tasked with discovering and identifying new malware variants, as well as testing current samples to ensure efficacy. Dont miss the latest security news from around the world in his weekly Cyber News Rundown blog.
+
+
+"
+"The malware research team in the UAB Computer Forensics Research Lab is widening its horizon and is always on the look out for new malware families. While researching new malware families, Arsh Arora, Ph.D. Candidate at UAB, found some chatter about the new banking trojan IcedId. Although ransomware is the most discussed malware in the press for many financial institutions the most feared malware type is the Banking Trojan. The objective of most banking trojans is to steal banking credentials and eventually steal the money from account holders.
+
+IcedID Banking Trojan
+
+IBM XForce discovered a new banking trojan IcedIDthat was first detected in September 2017. It is known as modified version of the Zeus Trojan. The following trojan spreads by Emotet worm which is able to spread from machine to machine inside a network via weak administrator passwords.
+
+One of our malware research team members, Shawn Sharp, decided to dig into this malware. IBM had already provided a detailed explanation of the infection part, so we decided to take a different approach and focused on analyzing the web injects on a number of websites.
+
+
+The sample used to test was:
+
+
+MD5 a6531184ea84bb5388d7c76557ff618d59f951c393a797950b2eb3e1d6307013
+
+
+Virus Total Detection  49/67. The sad part is that only 1 of the 49 detection named it IcedID, which commonly happens when marketing departments name malware. (The only company to call it IcedID was ALYac, the antivirus product from ESTSecurity Corp in Seoul, Korea. ESET, Microsoft, and TrendMicro all call this a sample of Fareit malware.)
+
+
+When Shawn launched the process, it didnt trigger on its own but a browser had to be launched to activate the banking trojan.
+
+
+Fig. 1: Activation of Banking Trojan IcedID
+
+
+Once the trojan was activated, following financial institution strings were found in the memory of the running sample when checked through Process Hacker.
+
+
+bbt
+jpmorgan
+americanexpress
+bankofamerica
+tdbank
+chase
+citigroup
+discover
+ebankingservices
+etrade
+citi
+adp
+usaa
+wellsfargo
+
+
+
+When we visited a few of these websites and provided them fake credentials, the webinject process modifies the user experience by asking the website visitor for extra details. It is noteworthy that these changes to the page happen in browser memory, meaning that the https: and Secure labels are still present, even though the page has been altered. 
+
+
+
+Amazon 
+
+
+Fig. 2: Amazon WebInject asking for card number
+
+
+
+Although we really are at Amazon.com, the malware is causing our browser to ask us for the details of our credit card!
+
+Chase
+
+
+Fig. 3: Chase WebInject asking for additional details
+
+
+The malware makes Chases website appear to ask us for not only our Card Number and Expiration Date, but also our CVV and PIN!
+
+Citi
+
+
+
+Fig. 4: Citi WebInject asking for additional details
+
+
+
+
+Machines infected with IcedID will also ask for these details after a login attempt at Citi.com!
+
+Discover
+
+
+
+Fig. 5: Discover WebInject asking for additional details
+
+
+
+
+The Discover.com website asks for card details, but also our Date of Birth and the last four digits of our Social Security Number!
+
+Researchers will be diving in deep and try to reverse engineer the binary for additional information. Stay tuned for more updates. In the meantime, if you hear of a friend complaining that their bank is asking them for too much information  it may mean that they are infected with malware!
+
+
+
+
+"
+"Websense Security Labs ThreatSeeker Network has detected a new Koobface campaign spreading on Facebook. The campaign is spreading via direct messages sentfrom compromised accounts. Websense customers have been protected against this attack withACE.
+Sample message:
+
+
+Some observations on employed tactics by Koobface
+One of the tactics employed by the Koobface gang is to attempt to obfuscate the malicious URL that is linkedin each message. In message shownabove, thisis done by adding hpPg just before the valid URL linkan obvious attempt to avoid detection by security software andby the Facebook security team. The additionat the start of the URL makes it unclickable, but thisis unlikely tostop determined users from copying and pastingthe linkdirectly into the browser. Anothertactic is the use of open redirects on the facebook.com domain itself. This gives the URL a more credible look (social engineering),as well as helping it pass basic security checks. Usually, Facebook alerts users if theyre about to browse to a link outside of its domains, butno alert is triggered in this case.
+In the messageabove, the open redirect on facebook.com points to a bit.ly shortened link. The redirector at bit.lypoints to a compromised Web site controlled by Koobface. The compromised site checks whether the request was referred from facebook.com.If it was, then it serves a dynamically generated script that further redirects to a malicious site. The malicious site requires a missing Flashplugin in order toplay a video, a.k.a.,a variant of the Koobface worm. At the time of writing, the variant had a23detection rate.
+
+An example redirection chain:
+
+http://www.facebook.com/[removed]bit.ly/g1[removed]
+==>> http://bit.ly/[removed]
+==>> [removed].com/24uqy7e/?md5=f6d9f0efc395fc0f331028c23f9fa5b9page=12263
+==>>[removed].net/jxjv0z2s/?
+
+
+There are some checks in place to make sure that the request came from Facebook. If the request at the first step of the redirection didnt originate from facebook.com, a fake Google News page is presented rather than further redirecting to the malicious fake video Web site.
+
+[removed].com/24uqy7e/?md5=f6d9f0efc395fc0f331028c23f9fa5b9page=12263
+
+
+
+[UPDATE]  One reader commented that the the redirection to the malicious page can take place if any URL (not just facebook.com variations) is as referrer field in the request header at the second stage request (the request to[removed].com/24uqy7e/?md5=f6d9f0efc395fc0f331028c23f9fa5b9page=12263). This is correct and has been verified, also it seems that a valid browser user agent must also be set in the request header in order to redirect to the malicious page. If a referrer is not set at all, the response will not present a fake Google News pageany more, but a fake Facebook page that requires a login, The page is set up for harvesting credentials, once a victim enters his/hers credentials in, theyre redirected to facebook.com and attempted to automatically be logged in. It seems that Facebook detects that an invalid attempt was made to login to their platform and notify the user. Beware that if the correct credentials were entered to the phishing page then Facebook may have stopped a potential attack on the victims account but the credentials are deemed to be stolen and should be changedimmediately.
+
+
+ "
+"Bitdefender researcher have recently analyzed a malware sample that has been found to be very similar to something that a cybercriminal group, named DarkHotel, used to operate for nearly a decade.
+The DarkHotel threat actors have been known to operate by targeting thousands of businesses across the world using the WiFi infrastructure in hotels. Blending highlevel spear phishing techniques with advanced malware and other complex attack avenues, the group has been able to operate for years without drawing any attention from law enforcement, apart for the few times some of their malware samples were documented by security researchers.
+Unlike their usual way of compromising victims, the recently analyzed sample uses a new payload delivery mechanism rather than the traditional zeroday exploitation technique. Basically, instead of compromising a hotels WiFi network to get to their victims, the new campaign blends social engineering with a relatively complex Trojan to infect a really select pool of victims.
+Even more interesting is that if past DarkHotel campaigns used to target corporate research and development personnel, CEOs and other senior corporate officials, the new attack seems focused on politics rather than financial gains, at least judging from the content of the spear phishing email.
+The social engineering part of the attack involves a very carefully crafted phishing email targeted to one person at a time, promising an attachment that contains sensitive political information about North Korea. In fact, it even shows a list of alleged contacts in the North Korean capital referencing organizations such as UN, UNICEF, and the World Food Programme.
+Ironically, the decoy document even contained a warning message about spammer and ensuring privacy, encouraging recipients to use the Bcc address field to lessen the chances of spammers getting it. In addition to improving privacy, the document also said that it is also easier for readers to get to the actual email, rather than scrolling through the recipients first.
+After opening the attachment, a multistage Trojan download would covertly install multiple malicious components designed to not only gain complete control over the targeted device, but also ensure persistency while dodging the victims security defenses.
+The use of valid digital certificates, multistage payloads, carefully crafted political spear phishing messages, and cherrypicked victims could suggest the group is governmentsponsored. However, is nearly impossible know that for sure when it comes to the cyber world, but it is clear that a sudden shift in the DarkHotels group behavior has occurred.
+For more details about the APT, check out the full Inexmar technical research.
+
+Tagsadvanced persistent threat APT apt video bitdefender research darkhotel inexmar inexmar video 
+"
+"Every single day our automated systems analyze hundreds of thousands of malicious samples. Yesterday one of thesamples caught my attention because the malware started performing bruteforce attacks against Remote Desktop using certain username and passwords.MD5: c1fab4a0b7f4404baf8eab4d58b1f821Other similar samples:
+c0c1f1a69a1b59c6f2dab18135a73919
+08863d484b1ebe6359144c9a8d8027c0
+
+Once started the malware copy itself to Documents and SettingsAdministratorApplication Datalsacs.exe and starts the communication with the CC sending data about the status of the bot (number of hosts bruteforced, packets per second, number threatds, version, etc).and the server replies with aconfiguration block containing: Login/Password list to use during bruteforcing Timestamp List of IP Addresses to attack Number of threads to use IntervalAs you can see some of the user/passwords that they are using (pos, pos1, pos01, shop, station, hotel, atm, atm1, micros, microssvc) are the default ones commonly used in Point of Sale terminals by retailers and businesses all around the world.The control panel of the botnet is also hosted in the same server:This is not new, we know cybercriminals have been using this technique to compromise Point of Sale systems for years. Once they gain access to the terminalusing one of the default credentials, they upload a second stage payload commonly known as a memory scrapperthat is a piece of malware that searchs for credit card data in memory before it has been encrypted. Some examples are: BlackPOS VSkimmer Alina RetalixScrapper DexterThese pieces of malware are able to extract the credit card data from the terminal and exfiltrate the data to the attackers that will then sell the information in the black market.When it comes to detect the infection of a system in your network, this is how ourAlienVault Unified Security Management (USM) will detect a compromised assset in your network:USM is able to detect both the communication witthe the CC server and the network activity that isgeneratedwhen the malware performsbruteforce attacks against devices on the Internet. It is worth mentioning that the CC server IP address was already in our Open Threat Exchange database and the correlation engine used that information to generate an alarm about a system compromise.If you want to try yourself you can download our Open Source SIEM  OSSIMor theFree 30 day trial of AlienVault Unified Security Management (USM)We have shown how these threats can impact companies using Point Of Sale terminals, specially those retailers and medium and small businesses that dont have visibility into the systems that are part of their networks and handle credit card information.Somerecommendationsto protect against these kind of attacks are:Change default credentials of POS systemsConfigure an access control list Keepyour software uptodate Install an Antivirus solution Centralize and monitor the logs from your POS systems to detect potential security breaches"
+"In my previous article, I explained what happened to the evolution of malware when microcomputers started to become a major presence in small offices and households. That coincided with the exploding popularity of Microsofts MSDOS and Windows 3.1. The file systems they were based on, FAT16 and later on, FAT32, totally lacked file and folder level privileges, so it was easy for targeted malware to cause huge problems.
+During the period covered in the last article, commerical ISPs made their debut. So people outside of academic settings started using email, USENET, and other Internet services. By 1991, Sir Tim BernersLee invented the web.
+In early 1993, I was on the web for the first time, and my very first web browser was the brand new Mosaic. In response to how Mosaic made the web accessable for many people, Netscape entered the scene. I was one of the lucky few to beta test Navigator 1.0 in November 1994. What was really cool was that I could see content and text loading in my webpages before they were completely downloaded. As we had a 16 kbps modem, I really appreciated that.
+Netscape, and soon after, Internet Explorer, brought the web into millions of homes for the very first time. That made the Internet a lot more popular. To this very day, I encounter end users who think the Internet and the web are one and the same. Argh!
+So, there opened a huge new vector for malware, and the Internet overcame floppy disks as the leading cause of malware distribution.
+And now, the history of malware is starting to get very interesting
+Dont Call My Name, Leandro
+The Michelangelo virus, as mentioned in my previous article, was the first time bomb virus to become notably widespread. It seemed like that from then on, time bombs started to become very popular.
+The antivirus community initially encountered the Leandro virus in 1993. As it was a time bomb, it was set to go off on a particular date. In Leandros case, that date was October 21st of the year of infection. Based on my research, if a PC got infected after October 21st of a calendar year, it likely would go off on that date in the following calendar year.
+But like many of the earlier viruses to create a big splash, it was kind enough to print a message for the user. This was Leandros message:
+Leandro and Kelly ! GVMGBrazil You have this virus since XXXXXXXX
+The date of infection, whichever date that was, as it would vary in each incidence, would be in it.
+Leandro was often spread via shareware on floppies, but as Internet usage started to grow rapidly, it was found to spread via BBS as well. I remember downloading quite a bit of shareware through BBS, so that was likely a primary vector.
+It was especially nasty, because it targetted the MBR of floppy disks and HDDs. So, although it could enter a system via Windows and MSDOS vulnerabilities, it could then impact completely unrelated operating systems as well, such as the very first GNU/Linux distros.
+Leandro kept infecting machines for at least a few more years, into the late 1990s. Few Windows users ran antivirus software those days, or even knew what antivirus software was. So I imagine that after Leandro made an operating system unusable on a particular years October 21st, an awful lot of HDDs were thrown out. Its difficult to determine how many disks were infected, as most people didnt report their infections to antivirus vendors. Maybe it caused more disks to enter landfills than cartridges of E.T. for Atari, but well never know for sure.
+Freddy
+Around the same time, Freddy was discovered. Like Leandro, it appeared to come from Brazil. Like the other viruses mentioned in this article and the previous one, it targeted Windows.
+.COM and .EXE executables were affected, especially COMMAND.COM. Remember how crucial that file was?
+Once Freddy infected a Windows machine, every time a user launched an executable, that executable, plus a .COM file in the same directory, would become infected. The size of each infected file would grow even more, as more and more files on the same disk acquired Freddy code. So it had a devastating snowball effect that could soon crash a machine due to memory overload.
+In time, an infected PC wouldnt be able to run for more than a few seconds after booting the OS.
+The string Freddy Krg could be found encrypted in infected files. So we can easily summize what the developers inspiration was.
+A Concept is Enough to Prove My Point
+Concept was the first really significant Macro virus, discovered in July 1995. It coincided with Microsoft Word surpassing WordPerfect in word processor market dominance.
+MS Word 6.0 and MS Word 95 were affected. Macros made life for frequent Word users, like my late novelist father, a lot easier. But macro creation in those versions of Word wasnt very secure. Its easy to blame Microsoft developers for having a lax attitude toward security. But macros were popular in WordPerfect as well, which Microsoft didnt develop. Even antivirus vendors, at the time, were unprepared for macro viruses. Concept was the first macro virus that made them really take notice, and it revolutionized how they developed malware signatures.
+Concept was also notable as the first significant virus to spread via email. As a large percentage of mid1990s email users were using AOL, the sound of youve got mail was often the harbinger of doom!
+After opening an infected Word document, Concept would go on to infect the NORMAL.DOT template, and then other templates as well.
+The macros that Concept contained were AAAZAO, AAAZFS, AutoOpen, FileSaveAs, and PayLoad.
+PayLoad was especially interesting. Its name was a misnomer, because it was no payload at all. It just contained this text:
+Sub MAIN
+ REM Thats enough to prove my point
+ End Sub
+Point proven? The best case scenario would be if a user didnt have important documents that used infected templates. Then, they could simply backup those documents, then uninstall and reinstall Word. It was useful that people usually had factory created install floppies and CDs those days.
+Concept infected more machines than any other malware into the late 1990s.
+Melissa
+Concepts destructive success paved the way for the Melissa virus, which was the second malware to spread to a significant extent via email.
+Although email was its primary vector, it was initially discovered in the alt.sex USENET group, in the spring of 1999. It was first found in a file that supposedly contained passwords for 80 pornographic websites. But even when it spread through USENET, once it infected a users machine, it would target email clients, namely Microsoft Outlook 97 and 98.
+A users inbox would quickly flood with infected email, and send infected emails to addresses in a users address book. Some users were so scared of Melissa that theyd disconnect their PCs from the Internet entirely. Its a shame, because reinstalling Outlook probably would have done the trick, as would running a malware scan once antivirus vendors had a signature for it.
+Considering the erotic theme of the virus, it didnt come as much of a surprise that Melissa was named after a stripper.
+An investigation led by the FBI found Melissas creator later that year. It was New Jersey resident David L. Smith.
+On December 10th, 1999, he was sentenced to ten years of prison. But Mr. Smith only served twenty months, so he was released just as the 21st century started.
+Which segues nicely into my next article. Because although the Y2K bug was what got ordinary people into a panic, what they really should have worried about was ILOVEYOU
+References
+Trend Micro Threat Encyclopedia, Leandro
+http://aboutthreats.trendmicro.com/us//archive/malware/LEANDRO
+Panda Security, Leandro
+http://www.pandasecurity.com/homeusers/securityinfo/1635/Leandro
+ESET Threat Encyclopedia, Leandro
+http://www.eset.com/us/threatcenter/encyclopedia/threats/leandro/
+McAfee, Leandro
+http://www.mcafee.com/threatintelligence/malware/default.aspx?id=1443
+FSecure, Freddy
+http://www.fsecure.com/vdescs/freddy.shtml
+VSUM, Freddy virus
+http://wiw.org/~meta/vsum/view.php?vir=529
+Concept, The Virus Encyclopedia
+http://virus.wikidot.com/concept
+Concept virus, Dr. Nikolai Bezroukov
+http://www.softpanorama.org/Malware/Malwaredefensehistory/Ch05macroviruses/Zoo/concept.shtml
+CERT, Melissa Macro Virus
+https://www.cert.org/historical/advisories/CA199904.cfm
+March 26th 1999, Melissa Wreaks Havoc on the Net, Wired.com
+http://www.wired.com/2010/03/0326melissawormhavoc/
+10 Worst Computer Viruses of All Time, How Stuff Works
+http://computer.howstuffworks.com/worstcomputerviruses1.htm
+
+
+
+
+      Tweet
+      
+
+
+
+
+ 
+
+
+
+
+Author
+
+Author
+
+
+
+
+ 
+
+
+Free Training Tools
+
+Phishing Simulator
+Security Awareness
+
+
+
+Editors Choice
+
+
+Tips to Help You Move Beyond a Help Desk Role
+
+
+Top 30 Information Assurance Analyst Interview Questions and Answers for 2019
+
+
+Webinar: How to Become a Certified Ethical Hacker (CEH)
+
+
+Where are All the Government Infosec Professionals?  CyberSpeak Podcast
+
+
+CompTIA Network Domain 1: Networking Concepts
+
+
+CompTIA Network Domain 5: Network Troubleshooting and Tools
+
+
+CompTIA Network Domain 4: Network Security
+
+
+CompTIA Network Domain 3: Network Operations
+
+
+CompTIA Network Domain 2: Infrastructure
+
+
+Data Destruction for Everyday People
+
+
+OODA and Cybersecurity
+
+
+Do You Need CIPT Certification?
+
+
+How to Align Training With the NIST NICE Framework
+
+
+The Business Impact of Cyber Risk  CyberSpeak Podcast
+
+
+
+
+Related Boot Camps
+
+
+Information Security
+
+
+Security Awareness
+
+
+DoD 8140
+
+
+Ethical Hacking
+
+
+Hacker Training Online
+
+
+Security
+
+
+Computer Forensics
+
+
+CISA
+
+
+CCNA
+
+
+PMP
+
+
+Incident Response
+
+
+
+
+More Posts by Author
+
+
+
+
+1U Password Manager Review
+
+
+
+
+Flash Fades, Adobe Crumbles
+
+
+
+
+Your Best Hacker Defense  Revealed
+
+
+
+
+Where are All the Government Infosec
+
+
+
+
+CompTIA Network Domain 1: Networking Concepts
+
+
+
+
+CompTIA Network Domain 5: Network Troubleshooting
+
+
+
+
+CompTIA Network Domain 4: Network Security
+
+
+
+
+Leave a Reply Cancel reply 
+Your email address will not be published. Required fields are marked Comment Name  
+Email  
+Website 
+Save my name, email, and website in this browser for the next time I comment.
+
+8
+
+
+=
+
+
+
+
+.hideifnojs 
+display: none !important;
+
+
+
+
+ 
+
+ 
+
+
+"
+" The MsnMM Campaigns [pdf]
+For over half a decade, the Naikon APT waged multiple attack campaigns on sensitive targets throughout Southeastern Asia and around the South China Sea. It maintained a heavy offensive focus on Myanmar, Vietnam, Singapore, the Philippines, Malaysia, and Laos. Targets and victims included ASEAN governmental agencies and government departments, investment enterprises, military, law enforcement and border control organizations, embassies, university faculties and others.
+Parts of the campaigns have been publicly discussedaccording to the nature of their tools. For example, the MsnMM backdoors started out with internal names like WinMM and SslMM, and their file naming spoofed MSN Talk and Msn Gaming Zone. The backdoor term naikon was derived from the UserAgent string NOKIAN95. But msnMM, naikon, sakto, and rarstone backdoors are all used by the same actor that we call the Naikon APT. Their second stage tools largely remained unknown, but a list is included in this report.
+The Naikon attackers attempted to exfiltrate sensitive geopolitical, military, and economic data; to intercept communications and to maintain surveillance on their victims throughout the MsnMM campaigns. Their toolset and techniques changed over time in many minor ways, and appear to be run by Chinesespeaking individuals. The groups infrastructure, reliant on web apps located mostly via dynamic dns domains, overlapped across these campaigns. As previously described, the APTs methods and technologies are simple, but highly effective against its targets defenses. We do not find 0days here.
+Much of Naikons spearphish and decoy document content, as well as its deployment, coincided approximately with highlycharged geopolitical events. The consistent list of military, economic, and political targets gave away the actors interests. Naikons earliest campaigns deployed the exeexchange, winMM, and sys10 backdoors, and the codebase was later built out into more custom tools. The MsnMM campaigns were waged into the start of 2014, and then dropped off before picking up again later in the year and into 2015.
+Regarding interaction with other APTs, its interesting to note that Naikon APT victims overlap with Cycldek APT victims. Cycldek is another persistent, but weaker APT. In addition, not only does the APT30 target profile match the Naikon APT, its toolset also features minor but noticeable similarities. And the later Naikon campaigns led to an all out APT v APT confrontation with the Hellsing APT, when the empire struck back.
+Although aspects of the malware set have been discussed on some blogs and in other papers, there hasnt been an accurate report bringing together details of the MsnMM, Sys10, and Naikon campaigns as the work of one crew, the Naikon APT. Finally, while this report looks into their past activity, the Naikon APT remains active, deploying a more recent codebase. The top targets for 2015 that we are aware of include organizations in Myanmar, Cambodia, Vietnam, Thailand, and Laos.
+"
+"The May 2018 adversary spotlight is on MYTHIC LEOPARD, a Pakistanbased adversary with operations likely located in Karachi. This adversary uses social engineering and spear phishing to target Indian military and defense entities. Throughout 2016, these actors used custom .NET downloaders to acquire basic system information and download additional payloads to infected hosts. Based on a generally low level of coding complexity, CrowdStrike assesses this adversary is of below average technical sophistication.
+The CrowdStrike Falcon Intelligence teams tracking of this adversary began in late 2016, when evidence of an attack surfaced against a victim based in India and working in the hospitality sector. The attack used an Excel spreadsheet containing macro code that deployed the previously mentioned simplistic .NET downloader payload. The basic nature of the malicious document and observed coding errors in the downloader payload are the basis for the assessment that this actor demonstrates a low level of technical skills.
+MYTHIC LEOPARD was further observed in 2017 developing methods for disguising custom malware implants. Two binder tools  used to disguise custom executables as legitimate Microsoft implants  were discovered by Falcon Intelligence and linked to MYTHIC LEOPARD in July 2017.
+Since April 2018, Falcon Intelligence has observed ongoing targeted intrusion activity using malicious Microsoft Office Excel documents likely associated with the MYTHIC LEOPARD adversary. As part of this campaign, the adversary leveraged generic themes related to administrative, managerial or supervisory matters alongside a unique Visual Basic Script (VBScript) technique used for installation. Falcon Intelligence has observed MYTHIC LEOPARD using this technique for several years to install multiple firststage implants and downloaders, including the isqlmanager and Waizsar RAT malware families. However, the use of the UPX packer and timestomping techniques have not previously been associated with this adversary and likely indicates an incremental increase in tradecraft and sophistication.
+MYTHIC LEOPARD actors have previously used an indigenously produced .NET obfuscation tool to hide malware implants as legitimate tools. The malicious files visualHD.exe and skypee.exe both attempt to impersonate a legitimate uTorrent executable once installed and running. Both malicious files use a previously identified MYTHIC LEOPARD commandandcontrol (C2) domain msupdate.servehttp[.]com. MYTHIC LEOPARD has previously reused old C2 domains across medium to long periods of time, despite operational security concerns.
+The related decoy document in this attack simply displays a pay scale without any further identifying information. However, the filename (Pay Matrix Projected After 7th CPC (3).xls) suggests that it is related to Indias 7th Central Pay Commissions recommendations for government salaries. As noted above, India is within the traditional target scope for this adversary.
+Community or industry names Transparent Tribe and CMajor have been associated with this actor.
+To learn more about how to incorporate intelligence on threat actors like MYTHIC LEOPARD into your security strategy, please visit the Falcon Intelligence product page.
+Download the CrowdStrike 2018 Global Threat Report: Blurring the Lines Between Statecraft and Tradecraft.
+Tells us why threat intelligence is critical to effective cybersecurity and you could receive a coveted Adversary Calendar featuring a different adversary each month. Enter to win!
+"
+"A number of families of malicious programs became noticeably more active last month. NetWorm.Win32.Mytob was one of these, and in May it started to present a serious challenge to EmailWorm.Win32.Mydoom. It may be that in the near future Mytob, which is a direct descendant of Mydoom (with added functionality) will be come more prevalent than Mydoom. This is because Mytobs extended functionality makes it capable of propagating via networks. It also contains an IRC backdoor, and some versions of Mytob are capable of propagating via IM networks: these versions include a separate module which is effectively a clone of IMWorm.Win32.Kelvir. This is installed separately to the victim machine by the main executable file of the malicious program. It should be noticed that in addition to extended functionalities, the lifecycle of Mytob is also changing. In contrast to the most recent, short lived email worms, Mytob is designed to be active for longer, similar to the first versions of Mydoom, NetSKy, Zafi and Bagle. All the modifications listed above, together with the new versions which are regularly released, and recompiled, make the worm highly prevalent.
+The next worm on the list worth examining is Eyeveg, for a variety of reasons. In May, after nearly six months in hibernation, Eyeveg became extremely active again. The first three versions of this worm were detected in 2003 (the last one on the 14th October), with another two being detected in 2004. And then, this month, Eyeveg.f, Eyeveg.g and Eyeveg.h appeared, with approximately a weeks lapse between versions. Its currently one of the most active malicious programs, with the majority of activity being in the Russian Federation. Its difficult to predict what will happen in the future. Maybe the worm will retreat again after this burst of frenzied activity, or continue to spread, and maintain its current level of activity, as some other programs  TrojanDownloader.Win32.INService, for example  have done.
+Finally, EmailWorm.Win32.Sober made another appearance, as Sober.q, which spread actively throughout Europe, sending far right propaganda and updating itself (to Sober.p) via the Internet.
+IM worms remain active, with new versions appearing frequently  IMWorm.Win32.Bropia and IMWorm.Win32.Kelvir have been detected in a number of versions. New versions are characterized by their short life cycle. 
+In contrast to worms, spyware has been less active this month. However, the decreased activity is not particularly significant, and mainly applies to TrojanPSW.Win32.LdPinch, PdPinch and TrojanSpy.Win32.Goldun. In fact, the decreased activity is simply a drop from an extremely high peak to a more standard level. 
+On the other hand, within this same group of programs, Brazilian spyware has become far more prevalent, both the spyware itself and the downloader programs which install it. Every day we see either a new version of one of these programs, or a modified old version  older versions are modified in order to make it more difficult for antivirus solutions to detect them. One example of this approach is TrojanSpy.Win32.Baner.ju, which constantly arrives in slightly different guises.
+Spyware spreads in a number of ways, with the most popular method being mass mailing (spamming). This can be done in a variety of ways, either in a single stage (where the file containing the spyware is mailed to the user) or in two stages, using a Trojan downloader (in the case of this spyware family, Dadobra is used. Some recent versions of Dadobra have been modified to download files containing other malicious programs via FTP, rather than using HTTP as in the past.) One other method, which is used relatively infrequently, is using EmailWorm.Win32.Combra as the carrier; this worm will download either the spyware program itself or the Trojan downloader to the infected machine. 
+May was also notable for the Chinese attempting to compete with the Brazilians in terms of virus activity. However, Chinese programs such as TrojanPSW.Win32.Lmir, Lineage, Gamania and other QQ (Chinese instant messaging application) malware have not shown any significantly increased activity. Backdoor.Win32.Hupigon is something of an exception here, as several new versions have been released in the recent past, but they have not caused any serious disruption. 
+Finally, an interesting newcomer this month was TrojanDownloader.Win32.Peerat.a, which is distinguished by its functionality. It differs from standard Trojan downloaders in that it doesnt just download other malicious programs to the victim machine, but also to any file sharing network present.
+To summarize: Mytob became more active than Mydoom, its predecessor, and this trend looks set to continue. Mytob may come to effectively replace Mydoom.
+Some groups of malicious programs which have been inactive for a long time may demonstrate renewed activity.
+Spyware and theft programs will continue to be used, either at the current level, or with increased intensity. 
+"
+"p0wnedShell is an offensive PowerShell Runspace Post Exploitation host application written in C that does not rely on powershell.exe but runs PowerShell commands and functions within a PowerShell run space environment (.NET). It has a lot of offensive PowerShell modules and binaries included making the process of Post Exploitation easier.
+
+What the author tried was to build an all in one Post Exploitation tool which could be used to bypass all mitigations solutions (or at least some of), and that has all relevant tooling included. You can use it to perform modern attacks within Active Directory environments and create awareness within your Blue team so they can build the right defence strategies.
+Features/Modules
+The following PowerShell tools/functions are included:
+
+PowerSploit InvokeShellcode
+PowerSploit InvokeReflectivePEInjection
+PowerSploit InvokeMimikatz
+PowerSploit InvokeTokenManipulation
+PowerSploit PowerUp
+PowerSploit PowerView
+HarmJ0ys InvokePsexec
+Besimorhinos PowerCat
+Nishang InvokePsUACme
+Nishang InvokeEncode
+Nishang GetPassHashes
+Nishang InvokeCredentialsPhish
+Nishang PortScan
+Nishang CopyVSS
+Kevin Robertson InvokeInveigh
+Kevin Robertson Tater
+FuzzySecurity InvokeMS16032
+
+
+
+
+(adsbygoogle = window.adsbygoogle  []).push();
+
+Powershell functions within the Runspace are loaded in memory from Base64 encode strings.
+The following Binaries/tools are included:
+
+Benjamin DELPYs Mimikatz
+Benjamin DELPYs MS14068 kekeo Exploit
+Didier Stevens modification of ReactOS Command Prompt
+MS14058 Local SYSTEM Exploit
+hfiref0x MS15051 Local SYSTEM Exploit
+
+Compiling
+To compile p0wnedShell you need to import this project into Microsoft Visual Studio or if you dont have access to a Visual Studio installation, you can compile it as follows:
+To Compile as x86 binary:
+
+
+
+
+cd WindowsMicrosoft.NETFrameworkv4.0.30319
+
+csc.exe /unsafe /reference:C:p0wnedShellSystem.Management.Automation.dll /reference:System.IO.Compression.dll /win32icon:C:p0wnedShellp0wnedShell.ico /out:C:p0wnedShellp0wnedShellx86.exe /platform:x86 C:p0wnedShell.cs
+
+
+
+
+123
+
+cd WindowsMicrosoft.NETFrameworkv4.0.30319csc.exe /unsafe /reference:C:p0wnedShellSystem.Management.Automation.dll /reference:System.IO.Compression.dll /win32icon:C:p0wnedShellp0wnedShell.ico /out:C:p0wnedShellp0wnedShellx86.exe /platform:x86 C:p0wnedShell.cs
+
+
+
+
+To Compile as x64 binary:
+
+
+
+
+cd WindowsMicrosoft.NETFramework64v4.0.30319
+
+csc.exe /unsafe /reference:C:p0wnedShellSystem.Management.Automation.dll /reference:System.IO.Compression.dll /win32icon:C:p0wnedShellp0wnedShell.ico /out:C:p0wnedShellp0wnedShellx64.exe /platform:x64 C:p0wnedShell.cs
+
+
+
+
+123
+
+cd WindowsMicrosoft.NETFramework64v4.0.30319csc.exe /unsafe /reference:C:p0wnedShellSystem.Management.Automation.dll /reference:System.IO.Compression.dll /win32icon:C:p0wnedShellp0wnedShell.ico /out:C:p0wnedShellp0wnedShellx64.exe /platform:x64 C:p0wnedShell.cs
+
+
+
+
+p0wnedShell uses the System.Management.Automation namespace, so make sure you have the System.Management.Automation.dll within your source path when compiling outside of Visual Studio.
+You can download p0wnedShell here:
+p0wnedShellmaster.zip
+Or read more here.
+Share102Tweet121Share94217 Shares "
+"This report has been prepared using depersonalized data processed by Kaspersky Security Network (KSN). The metrics are based on the number of distinct users of Kaspersky Lab products with the KSN feature enabled, who encountered ransomware at least once in a given period, as well as research into the ransomware threat landscape by Kaspersky Lab experts. 
+This report covers the evolution of the threat from April 2016 to March 2017 and compares it with the period of April 2015 to March 2016.
+
+A brief look at ransomware evolution over a year
+The rise of RansomwareasaService
+In May 2016 Kaspersky Lab discovered Petya ransomware that not only encrypts data stored on a computer, but also overwrites the hard disk drives master boot record (MBR), leaving infected computers unable to boot into the operating system. 
+The malware is a notable example of the RansomwareasaService model, when ransomware creators offer their malicious product on demand, spreading it by multiple distributors and getting a cut of the profits. In order to get their part of the profit, the Petya authors inserted certain protection mechanisms into their malware that do not allow the unauthorized use of Petya samples.
+
+While RansomwareasaService is not a new trend, this propagation model continues to develop, with more and more ransomware creators offering their malicious product. This approach has proved immensely appealing to criminals who lack the skills, resources or inclination to develop their own malware. 
+Notable examples of ransomware that appeared in 2016 and used this model were Petya/Mischa and Shark ransomware, which was later rebranded under the name Atom.
+The growth of targeted attacks
+In early 2017, Kaspersky Labs researchers have discovered an emerging and dangerous trend: more and more cybercriminals are turning their attention from attacks against private users to targeted ransomware attacks against businesses.
+The attacks are primarily focused on financial organizations worldwide. Kaspersky Labs experts have encountered cases where payment demands amounted to over half a million dollars.
+
+The trend is alarming as ransomware actors start their crusade for new and more profitable victims. There are many more potential ransomware targets in the wild, with attacks resulting in even more disastrous consequences.
+The analysis in this report attempts to assess the scale of the problem, and to highlight possible reasons for the new angles of ransomware developments globally.
+Main numbers
+
+The total number of users who encountered ransomware between April 2016 and March 2017 rose by 11.4 compared to the previous 12 months (April 2015 to March 2016)  from 2,315,931 to 2,581,026 users around the world;
+The proportion of users who encountered ransomware at least once out of the total number of users who encountered malware fell by almost 0.8 percentage points, from 4.34 in 20152016 to 3.88 in 20162017;
+Among those who encountered ransomware, the proportion who encountered cryptors rose by 13.6 percentage points, from 31 in 20152016 to 44.6 in 20162017;
+The number of users attacked with cryptors rose almost twice, from 718,536 in 20152016 to 1,152,299 in 20162017;
+The number of users attacked with mobile ransomware fell by 4.62 from 136,532 users in 20152016 to 130,232.
+
+Conclusions and predictions
+Based on the statistics and trends described in this report, we have come to the following conclusions:
+
+Ransomware actors are starting to devour each other. This is a sign of growing competition between ransomware gangs.
+The geography statistics show that attackers switch to previously unreached countries, where users are not as well prepared for fighting ransomware, and where competition among criminals is not so high.
+The worrying thing here is the fact that ransomware attacks are becoming increasingly targeted, hitting financial infrastructure across the globe. The reason for the trend is clear  criminals consider targeted ransomware attacks against businesses potentially more profitable than mass attacks against private users.
+The numbers show that ransomware on PCs are still on the rise  albeit at a slower growth rate. 
+Moreover, the number of users attacked with mobile ransomware in the observed period fell. This could be a sign of successful collaboration between vendors of security solutions, various law enforcement agencies, and other actors. Increased threat awareness, fueled by global media coverage on the most prominent fraudulent campaigns can also have a part to play.
+Another reason is the development of joint industry efforts to protect users from encryption ransomware.
+Although the statistics show that attacks with ransomware operate on a massive scale, responsibility for most of the mobile attacks rests with just a few groups of malware, most of them spread via affiliate programs. At the same time, PC ransomware shows quite the opposite status, with a lot of malicious actors in the wild conducting ad hoc attacks. 
+
+Along with these conclusions we believe that the current ransomware threat landscape provides a good basis for several predictions on how this threat will evolve in the future.
+Predictions
+
+The extortion model is here to stay. More stable growth, which is at a higher level on average, could indicate an alarming trend: a shift from chaotic and sporadic actors attempts to gain foothold in threat landscape, to steadier and higher volumes. 
+Given the signs of growing competition on the ransomware market, RansomwareasaService is also becoming more and more popular, attracting new actors. 
+Ransomware is growing in sophistication and diversity, offering a lot of readytogo solutions to those with fewer skills, resources or time  through a growing and increasingly efficient underground ecosystem.
+Development of criminaltocriminal infrastructure is fueling the emergence of easytogo, ad hoc tools to perform targeted attacks and extort money, making attacks more dispersed. This trend has already taken place and will likely continue in the future. 
+Global initiatives which protect users from encryption ransomware will keep gaining momentum.
+
+Fighting back 
+Through technology: Kaspersky Lab provides a free antiransomware tool which is available for all businesses to download and use, regardless of the security solution they have installed.
+Through collaboration: The No More Ransom Initiative. On 25 July 2016, the Dutch National Police, Europol, Intel Security and Kaspersky Lab announced the launch of the No More Ransom project  a noncommercial initiative that unites public and private organizations and aims to inform people of the dangers of ransomware and help them to recover their data. The online portal currently carries 50 decryption tools, seven of which were made by Kaspersky Lab. Since the NMR launch, more than 29.000 victims from all over the world have been able to unlock their files for free thanks to Kaspersky Lab tools. The NMR portal is currently available in 14 languages: English, Dutch, French, Italian and Portuguese, German, Spanish, Slovenian, Finnish, Hebrew, Ukrainian, Korean, and Japanese.
+KSN Report: Ransomware in 20162017 (full report, English):
+
+MktoForms2.loadForm(//appsj06.marketo.com, 802IJN240, 12737);
+        MktoForms2.whenReady(function(form) 
+            form.onSuccess(function(vals, tyURL) 
+                ga(send, event,  
+                    eventCategory: Marketo,
+                    eventAction: Successful Form Fill Out,
+                    eventLabel: location.pathname,
+                    eventValue: 49,
+                    hitCallback: function()  
+                        document.location.href = tyURL; 
+                    
+                );
+                return false; 
+            ); 
+        ); 
+        
+
+"
+"The muchanticipated CrowdStrike Cyber Intrusion Services Casebook for 2017 offers detailed accounts of some of the cases the CrowdStrike Services incident response (IR) team has investigated over the past year.
+One key trend the CrowdStrike team observed is that the lines between nationstate sponsored attack groups and eCrime threat actors continue to blur. As part of this trend, the increase in criminal hackers using fileless attacks and living off the land techniques has been especially pronounced. This uptick in fileless attacks is also documented and independently verified in a recent report from Ponemon Research. Fileless attacks include exploiting processes that are native to the Windows operating system such as PowerShell and Windows Management Instrumentation (WMI). Living off the land describes how adversaries move within the victims environment once they gain access, often employing antiforensics tools to erase signs of their presence and increase dwell time. Evidence of this trend is also reflected in the prevalence of bruteforce attacks on RDP (remote desktop protocol) servers, which was also observed by the CrowdStrike Services team during their 2017 client engagements.
+Situational Analysis
+A commercial services organization contacted CrowdStrike Services after being hit by the SamSam ransomware variant, which is commonly associated with xDedic, a Russianoperated darknet forum. The eCrime operators of xDedic have been implicated in a number of nationstate attacks against public sector organizations, as explained in a previous blog.
+xDedic operates a market for the selling and buying of crimeware and compromised credentials used for accessing RDP servers. After xDedic sells access to these compromised RDP servers, they are then used in attacks against government agencies and other commercial targets.
+Although the organization had already paid the ransom when they contacted CrowdStrike, they sought help to prevent the ransomware from spreading to other systems and to determine the original point of entry by the attackers.
+The CrowdStrike Services team first verified the exact ransomware variant used in the attack. Notably, the variant involved automatically encrypts files on the victims network  a common ransomware tactic  however, it doesnt give the attacker the ability to access, acquire or exfiltrate data from the network.
+The team observed that the adversary used Sticky Keys to launch bruteforce attacks and gain RDP login credentials so they could move about the victims environment freely. Sticky Keys is a Windows Ease of Access feature that enables keyboard shortcuts. Once compromised, it can provide an adversary systemlevel access without needing to authenticate and provided the attackers with an effective persistence mechanism.
+Other fileless or living off the land TTPs tied to xDedic that the investigators found included compromised privileged accounts and network login bruteforce attacks, both of which reflect the varied toolsets a sophisticated threat actor leverages in order to penetrate a target environment.
+Incident Investigation and Analysis
+After conducting forensic analysis by deploying CrowdStrike Falcon endpoint monitoring the team was able to identify the root cause of the intrusion that led to the deployment of the SamSam ransomware within the victims network. Because they were able to identify the persistence mechanism used by the ransomware, the team could immediately stop its propagation and prevent it from encrypting any additional files. During this process, the team provided comprehensive analysis of a number of areas including:
+
+Forensic artifacts commonly seen in IR investigations
+Known malicious indicators in each image collected, including file names and MD5 hashes of malicious software
+System registry hives
+Artifacts indicating process execution of malicious and benign software
+
+The analysts also included the manual review of the forensic data looking for other indicators not included above. CrowdStrike determined that an attacker accessed systems within the client environment to create user accounts and to deploy and execute ransomware and batch scripts. Investigators also determined that the attackers goal was to secure more RDP server logins to sell to other cybercriminal threat actors.
+Results and Key Recommendations
+CrowdStrike Services was able to rid the clients environment of the damaging SamSam ransomware completely and help the organization close the security gaps that had allowed the attack to occur. The team concluded their investigation by providing the client with tailored recommendations to help them strengthen their defenses against future attacks. These recommendations included the following:
+
+Enforce Network Level Authentication (NLA) for RDP sessions:
+Any server that is publicfacing on the internet and accessible via RDP should be configured to require NLA for RDP sessions. This forces a user to successfully authenticate prior to receiving the Windows logon screen.
+Implement twofactor authentication (2FA) to prevent unauthorized access:
+2FA requires users to provide a onetime generated token on a separate device after entering login credentials.
+Consider CrowdStrike Falcon endpoint protection:
+The CrowdStrike Services team begins every investigation by deploying the CrowdStrike Falcon platform to provide endpoint visibility and realtime Indicators of Attack (IOA). You can  test drive Falcon or try a  noobligation trial and see firsthand what your current security may be missing.
+
+To learn more details about this case and others investigated by the CrowdStrike Services team, download the CrowdStrike Services Cyber Intrusion Casebook 2017.
+
+
+"
+"STARDUST CHOLLIMA is a targeted intrusion adversary with a likely nexus to the Democratic Peoples Republic of Korea (DPRK). This adversary is typically involved in operations against financial institutions with the intention of generating liquid assets for the DPRK. Previous activity tied to this adversary includes campaigns focused on abusing Society for Worldwide Interbank Financial Telecommunication (SWIFT) systems, as well as intrusions against global banking networks via strategic web compromise operations. STARDUST CHOLLIMA uses several implants that share a code framework tracked by CrowdStrike as TwoPence. This actor also uses techniques such as code protection tools like Enigma protector, password protected executables and secure deletion functions to remain hidden on target system for long periods of time by avoiding legacy security products. Recent Falcon Intelligence reporting has been published to customers assessing that STARDUST CHOLLIMA is suspected of targeting Latin Americabased organizations since mid2017.
+STARDUST CHOLLIMA primarily targets its victims with the aim of acquiring funds. CrowdStrike has not directly observed STARDUST CHOLLIMA conducting intelligencegathering or destructive operations. It is not known at this time whether the TwoPence framework is used exclusively by STARDUST CHOLLIMA or if elements of it are shared between other related DPRK adversaries such as LABYRINTH CHOLLIMA, RICOCHET CHOLLIMA or SILENT CHOLLIMA.
+Currency generation represents an additional mission of DPRK actors beyond destructive attacks and espionage; this may reflect the impact of sanctions levied against the DPRK by the international community and the 2017 banning of the DPRK from SWIFT. CrowdStrike identified earlier attempts at revenue generation by SILENT CHOLLIMA prior to tracking STARDUST CHOLLIMA, which leveraged unique tools and infrastructure; however, no overlap between the two actors was identified. In addition to financial sector targeting, there is some technical overlap between the Wannacry ransomware, which began self propagating in May 2017, and both STARDUST CHOLLIMA and LABYRINTH CHOLLIMA. The earliest observed version of WannaCry, created in February 2017, generates a custom TLS handshake message as part of its C2 protocol that is sent before actual payload data is transmitted. This handshake message selects a random number of cipher suite constants from a hardcoded array, resulting in changing patterns of network traffic. Some variants of Hawup also generate a fake TLS header with a random selection of cipher suite identifiers that is prepended to actual C2 traffic. While the code is not the same, the concept and structure are similar enough to assume a relation. All WannaCry samples, many Hawup variants, and many tools based on the TwoPence library were compiled using Microsoft Visual Studio 6, which is rarely observed almost 19 years after its release. A hypothesis explaining these similarities is that the different actor groups have access to the same development resources, perhaps even a shared code library, but they engage in different types of attacks according to their respective missions. Community or industry names Lazarus Group, and Bluenoroff have been associated with this actor.
+To learn more about how to incorporate intelligence on threat actors like STARDUST CHOLLIMA into your security strategy, please visit the Falcon Intelligence product page.
+Download the CrowdStrike 2018 Global Threat Report: Blurring the Lines Between Statecraft and Tradecraft.
+Tell us why threat intelligence is critical to effective cybersecurity and you could receive a coveted Adversary Calendar featuring a different adversary each month. Enter to win!
+"
+" Where were you when the lights went out? That line became famous after the 1977blackout in New York City. This power outage was caused by lightning and lasted for up to two days, depending on which part of New York you lived in. While in this case the power grid failure was a freak incident due to faulty backup equipment, it is still famous for the havoc it wreaked throughout the cityincluding looting and arsonduring a time when national morale was already low.
+Now imagine something similar happening today. Would it result in the same criminal chaos? My guess is it would depend on the circumstances and how much time it takes to restore power. Lets hope we never find out.
+Power grid hardware
+The underlying hardware of the power grid has gone through a lot of improvements since 1977. And so have backup systems and procedures.
+In many countries, a power interruption that lasts longer than a given threshold gives the consumer the right to claim damages from the power company. These damages are to be paid by the electricity distributor. The amount of the customer compensation and the threshold can be vary from one country to another, but you can usually look them up on the website of your provider.
+This is not to say that its impossible to do physical damage if an attacker is determined enough, as the 2013 sniper attack on a California energy grid substation demonstrated.
+Recent regulations and improvements have made it rare to experience power outages of more than a few hours in the western worldunless there are special circumstances, such as natural disasters. Tornadoes, hurricanes, earthquakes, erupting volcanoes, flooding, and wildfires can cause power outages, which makes dealing with those disasters even more difficult. Any other power outages are usually restored quickly or covered by backup systems.
+Malware
+We are aware of several malware variants that are used against power supplies, and some of them can be held responsible for major power outages around the globe.
+Stuxnet is a worm designed to spread through Windows systems and go after certain programmable controllers by seeking out the software related to these controllers. Stuxnet is believed to be specifically designed to destroy the Iranian nuclear program, but it can also be used to bring down power plants.
+A group of hackers dubbed Sandworm and suspected to be based in Russia shut down the Ukrainian power grid in December 2015 using a malware calledBlackEnergy. The malware opened a backdoor that allowed the attackers to control infected machines to a level where they were able to cross over into the operational network. Once there, they started to flip switches, disabling IT infrastructure and deleting files. Earlier in 2014, the US government reported that hackers had planted BlackEnergy on the networks of American power and water utilities, but nothing came of it.
+If any countermeasures were taken in the Ukraine, they turned out to be insufficient or at least unable to withstand CrashOverRide. CrashOverRide, aka Industroyer, is an adaptable malware that can automate and orchestrate mass power outages. The power gridsabotaging malware was likely the one they used in the December 2016 cyberattack against Ukrainian electric utility Ukrenergo. The CrashOverRide malware can control legacy electricity substations switches and circuit breakers, allowing an attacker to simply turn off power distribution, leading to cascading failures and causing more severe damage to equipment.
+Dragonfly, aka Energetic Bear, is a malware campaign that uses a variety of infection vectors in an effort to gain access to a victims network, including malicious emails, watering hole attacks, and Trojanized software. Part of this campaign was a malicious email disguised as an invitation to a New Years Eve party to targets in the energy sector in December 2015.
+Sandwormmalware, discovered in 2014, uses a vulnerability to launch external files from a malicious Powerpoint file. In a Sandworm attack, the malicious Powerpoint file pulls in two files from a remote server that combine to deliver the malware payload. Sandworm has been used in targeted attacks against NATO, the European Union, and companies in the telecommunications and energy sectors.
+Backup systems
+It may seem obvious to point out that critical systems like hospitals should have independent emergency power backup systems. And most of them do. But are they tested regularly for functionality? Do they have enough supplies to last during a prolonged power outage? Is there an option to turn them on manually if they fail to kick in automatically? And is someone available on premise who knows how to do this?
+Emergency power systems come in many shapes and sizes. Standby generators are probably the most wellknown, and they rely on some kind of fuel to provide emergency power. Batteries, for example, use stored power and release this power when its needed. But batteries are generally only a solution for hours rather than days, and they tend to lose some power even when they are not in use. It is imperative to find a backup solution that is robust enough to meet your needs in a worstcase scenario.
+
+Energy sources
+Theoretically, there are other ways to frustrate the power grid. For example, by cutting off the resources we use to run the power plant, such as coal, water, wind, solar, nuclear, and natural gas.This is a good reason to use a wide variety of resources, and another excellent reason to use renewable energy. There is also good reason why OPEChas a lot of influence in the world of today.
+To show that hacking into power supplies is not entirely theoretical, we want to mention that Iranian hackers infiltrated the control system of a small dam less than 20 miles from New York City in 2013. Unfortunately, many power plants are still accessible from the Internet in unnecessary ways that endanger their cybersecurity.
+Countermeasures
+Criminals have tools at their disposal with the capability to cause serious damage to the power grid. Therefore, the power industry must take precautions and upgrade cybersecurity to keep their systems safe. And they should do more than just abide by the minimumsecurity standard. Power grid exploitation companies and their suppliers should have themselves tested on their ability to withstand cyberattacks on a regular basis.
+This is especially true for nuclear power plants, where a loss of control can have more catastrophic consequences than just the loss of power output. Since 9/11, every company operating nuclear power plants has had an NRCapproved cybersecurity programin place, but cybersecurity was not such an issue when these plants were designed.
+Besides cybersecurity, there are physical measures a government could enforce to improve the stability of a stressed power grid. As Joshua Pearce, a professor of electrical and computer engineering at Michigan Technological University,put it:
+If we want to have a secure grid and go full throttle on renewable energy, what it means is we need to break up the grid into a bunch of microgrids that still act together as a full grid, so that we still have all the benefits that we have today with our giant centralized grid while still having the security.
+In an attack, such a microgrid could be taken out without having an ill effect on all the other microgridswhich would make a successful attack less disastrous.
+It would also stand to reason to take heed of the advice of Energy Secretary Rick Perry, who told lawmakers at an appropriations hearing that cyberattacks are literally happening hundreds of thousands of times a day. He warned that the Department of Energy needs an office of cybersecurity and emergency response in order to be prepared for threats like this in the future. And looking at whats already taken place, plus what is vulnerable to attack: We have to agree.
+"
+"
+Computer viruses are crippling the Huntsville City Schools.  How can you be sure your student (or school) wont be a carrier?In yesterdays Huntsville Times Steve Campbell reported that computer viruses had nearly shut down the Huntsville City schools.  Teachers couldnt use their prepared computer lessons, student attendance could not be tracked, and lunch room accounts could not be accessed because of the virus.Update: Weve now received a working copy of the virus that infected the Huntsville schools.  The virus is known as Sality.  A VirusTotal report is available here:Reported Detection of Sality.Heres McAfees Description of W32/Sality.AI, which was first detected August 5th.  This is actually detected as W32/Sality.AG, which is described in more detail HERE.  Neither version matches exactly what we are seeing.  SafeMode is eliminated by deleting your nonprimary ControlSets from the Registry.  Registry Editing and Task Manager are disabled with keys in HKCUSoftwareMicrosoftWindowsCurrentVersionPoliciesSystem.  A kernelmode driver being loaded in the SYSTEM.INI is responsible for blocking the execution of most antivirus products.  Editing the SYSTEM.INI can eliminate that problem.  Two randomly named .exe files are placed in the current users Documents and Settings(user)Local SettingsTemp.  The bigger problem is that several .exe files located in WindowsSystem32 are modified so that their execution reinvokes the whole set of affairs.  To make it worse, these files are then set to be invoked when other files are called, by doing things such as infecting WinMine.exe or Notepad.exe and then making it the default debugger for your system.  These files will have to be recovered from safe media.The Sality Removal Tool offered by AVG was written in December of 2007 and is totally ineffective against the current version of Sality in our experience.  We are continuing to test other methods of disinfection.  When we have more advice well update it here.USB JumpersVirus researchers at  UAB Computer Forensics  have been looking at these types of viruses, called USB Jumpers, since January and have been amazed that there hasnt been a devastating outbreak earlier.  While many viruses spread via email or by visiting infected webpages, this network spreads by network connections and via USB Thumb Drives.  When a USB drive is inserted into a computer, the computer scans the drive for an AutoRun.inf file.  If the AutoRun.inf file is present, the computer does whatever it is told to do.If a stranger (or a student, in this case) gives you a USB thumb drive and you stick it into the computer, the default setting on any Windows computer is to execute that AutoRun sequence.The way this family of viruses, which we call USB Jumpers, works is that they modify the AutoRun.inf file to execute a copy of the virus, which is often present on the thumbdrive as a hidden file called Setup.exe.Once a computer is infected, every thumb drive inserted into that computer will be updated to also be a USB Jumper.   So, if a teacher has students turn in their homework on USB sticks, the first student may give the teacher an infected thumb drive.  The teacher then also gathers homework from all of the other students.  As each students thumb drive is inserted into the teachers computer, it also becomes infected, and can now be used to spread the virus to their home computer or other teachers computers.Administrator TroubleOnce a trusted computer on a network is infected, the infection can spread quickly to every other computer on the network, especially if an Administrator logs in to the computer.  When someone with Domain Administrator privileges logs in to the computer, the virus on that computer now has Administrator privileges on the entire network.  When the virus realizes it is an Administrator, it attempts to open a network share with every other computer on the network.  If the share is successful, it will copy itself to the setup routines on the remote computer, and then close the connection.This is especially devastating!  When a computer is first infected, the infection is limited to the local machine and to USB drives inserted into that computer  but the person who is called from the IT Department to remove the virus will almost certainly log in with Administrator access to remove the virus.  As soon as that happens, every machine on the network can be infected within a matter of seconds.Bringing the Virus HomeWhether you have a student in the house, or whether you have a family member who works in the school system, if they bring home a USB drive which has been used in a school computer, there is a chance that they are bringing a virus home with them as well.  From there, a USB drive can easily spread the virus to Mom and Dads work computers.How do you stop it?  Step One is to turn off AutoRun.On your Windows computer, click Start, then Run, and typegpedit.msc.  This is the Group Policy Editor.Follow the menus:Local Computer Policy > Computer Configuration > AdministrativeTemplates > SystemThen choose the item Turn off Autoplay.Double click it, and choose Enabled for All Devices.There is a downside to taking this action.  Once this protection is enabled, CDs will not automatically try to play themselves when inserted.  You will have to launch the application, or your music player, manually.  If you do not use USB drives and you do like the convenience of autoplaying CDs you may not want to take these steps.If you do use your USBs in strangers computers (even at school or work!) that is a small inconvenience to pay for this level of protection. UPDATE Regarding PIF FilesW32/Sality will write itself to USB drives using one of the following file extensions.  .cmd, .exe, .pif.  While the advice above is effective on most copies  if the drive contains a .pif extension, there is further danger.  Browsing a folder containing a .pif from Active Desktop (the default in Windows XP) is enough to invoke the virus.  If you are unsure if your USB drive has a hidden .pif, go to a DOS Windows (Start=>Run=>CMD).  Then do a directory listing to show hidden files.  So, if your USB is on the E: drive, the command would be dir e: /ah.  If a hidden .pif file exists, it should be deleted.     dir e: /ah   attrib h s e:badfile.pif    del e:badfile.pifInterested in malware?  I spoke last week at Tech Mixer University on the topic of Investigating Malware.  My presentation is available on my UAB Computer Forensics page.Gary WarnerDirector of ResearchUAB Computer Forensicsgarcis.uab.edu
+
+"
+"
+Internet search habits, passwords or login credentials 
+
+
+
+
+The moment it reaches a new system, Trojan.PWS.KATES will create a copy of itself and move it to userprofileTemplatesmemory.tmp. Once this initial task is completed, the original file is deleted.
+Next, the malicious file creates the Windows Server subdirectory inside Local SettingsApplication Data and drops a 3KB .dll file called pwfsdy.dll. The file access, creation and write times are replaced with those of the user32.dll file. In order for the .dll file to be automatically executed each time a program is run for the first time, a registry key is written underSYSTEMCurrentControlSetControlSession ManagerAppCertDllsAppSecDll. This means that any programs the user installs will also launch this piece of malware.
+Subsequently, the binary data loaded in Registry key HKEYCURRENTUSERSOFTWARElbtppwfsdylbtppwfsdywill be executed by the pwfsdy.dll file.
+The call to action is triggered once the Trojan is loaded along with the Internet browser the computer owner uses to access web pages. Whether the browser is Firefox, Opera or Internet Explorer, Trojan.PWS.KATES will hook functions that transfer data over the Internet connection, it will filter what seems to be search result pages delivered by search engines and it will randomly replace them with a url that takes the user to exotic destinations such as: fake online antivirus scanners or websites that contain pornographic content.
+Apart from constantly monitoring the users choice of sites, Trojan.PWS.KATES also peeps at users passwords and at whatever other critical data they provide on the Internet, shipping it to the malware developers servers.
+The technical information in this article is available courtesy of BitDefender virus researcher Voicu Hodrea.
+
+Tagsbrowser kates malware researcher trojan 
+"
+"
+A week on from the WannaCry outbreak, a huge number of articles have been written on the topic. These have covered everything from indepth analyses of WannaCry itself to discussion pieces about the EternalBlue and DoublePulsar exploits and, latterly, warnings about other pieces of malware using the same propagation techniques as WannaCry.
+Forcepoint customers are protected against the underlying EternalBlue exploit via NGFW at the following stages of attack:
+Stage Four (Exploit Kit)  The EternalBlue exploit attempts are blocked.
+For threats where communication or distribution is performed via malicious email or URLs in combination withthe EternalBlue exploit, customers with Forcepoint Web and Email Security productsare additionally protected via TRITON Advanced Classification Engine.
+What else is out there?
+UIWIX The UIWIX ransomware was first identified this week. Unlike WannaCry, UIWIX is not currently believed to be a worm (i.e. selfpropagating): while it uses the EternalBlue exploit to gain access to systems, the scanning and exploitation appears to be conducted using a more traditional command and control (C2) infrastructure.
+Adylkuzz Adylkuzz was one of the first pieces of malware to be identified as a direct result of the attention generated by WannaCry. It is distributed in a similar fashion to UIWIX, using centralised C2 infrastructure to sweep the Internet for machines vulnerable to the EternalBlue exploit. When installed, Adylkuzz enrols the machine in a botnet used to mine the Monero cryptocurrency. Forcepoint Security Labs have identified campaigns with similar intent but different distribution methods in the past.
+RATs A number of Remote Access Tools have been identified using the EternalBlue exploit to spread. While the use of EternalBlue is common to all of the samples identified, the way the exploit is used varies with some samples (e.g. EternalRocks) taking the form of aggressively selfpropagating worms, and others using a centralised scanning and distribution infrastructure similar to UIWIX and Adylkuzz.
+Conclusion  recommendations
+As noted at the start of this article, Forcepoint customers are protected against the EternalBlue exploit which underlies all of these campaigns by NGFW. Where applicable, customers with ForcepointWeb and Email Security products have additional protection against malicious email and/or URLs is in place to protect against other distribution methods and C2 communications.
+Ultimately, as the exploitation technique at the root of these attacks is unchanged, the recommendations for all organisations remain the same as initially communicated during the WannaCry outbreak:
+Ensure that the MS17010 security update is installed on all Windows machines within the organisation.
+Ensure that you have email and web security solutions that can block malicious emails, block intermediate payload download stages in realtime, and can provide URL Sandboxing features for additional protection at pointofclick.
+In line with Microsofts guidance from 2016 [1], customers should consider disabling SMBv1and other legacy protocols on all Windows systems [2] where this will not negatively impact the function of legacy systems within the environment.If you are a Forcepoint customer please consult the following Knowledge Base Article to identify what course of action may be suitable for your product:https://support.forcepoint.com/KBArticle?id=000012832
+References
+[1]https://blogs.technet.microsoft.com/filecab/2016/09/16/stopusingsmb1/
+[2]https://support.microsoft.com/enus/help/2696547/howtoenableanddisablesmbv1,smbv2,andsmbv3inwindowsvista,windowsserver2008,windows7,windowsserver2008r2,windows8,andwindowsserver2012
+"
+"
+Unixprivescchecker is a Unix/Linux User privilege escalation scanner that runs on Unix systems (tested on Solaris 9, HPUX 11, Various Linuxes, FreeBSD 6.2).  It tries to find misconfigurations that could allow local unprivileged users to escalate privileges to other users or to access local apps (e.g. databases).
+Its similar in some ways to  LinEnum  Linux Enumeration  Privilege Escalation Tool.
+
+It is written as a single shell script so it can be easily uploaded and run (as opposed to untarred, compiled and installed).  It can run either as a normal user or as root (obviously it does a better job when running as root because it can read more files).
+unixprivesccheck is intended to be run by security auditors and penetration testers against systems they have been engaged to assess, and also by system administrators who want to check for obvious misconfiguration.  It can even be run as a cron job so you can check regularly for misconfiguration that might be introduced.
+
+
+
+
+(adsbygoogle = window.adsbygoogle  []).push();
+
+The author wanted to write something that was at least partially useful to penetration testers when they gained access to a lowprivilege account and wanted to escalate privileges. There are lots of things that pentesters will check in this situation and one of the most tedious to check is weak file permissions  this of often one of the most fruitful, though, so theres no avoiding it.
+Checks Performed
+
+Writable Home Directories
+Readable /etc/shadow
+Weak Permissions On Cron Jobs
+Writable Configuration Files
+Writable Device Files
+Readable Files In Home Directories
+Running Processes Correspond To Writable Programs
+sudo Configuration
+Accounts with no Password
+
+You can download v2.1 here:
+master.zip
+Or read more here.
+Share62Tweet9519Share42208 Shares "
+"
+wildpwn is a Python UNIX wildcard attack tool that helps you generate attacks, based on a paper by Leon Juranic. Its considered a fairly oldskool attack vector, but it still works quite often.
+
+The simple trick behind this technique is that when using shell wildcards, especially asterisk (), the UNIX shell will interpret files beginning with a hyphen () character as command line argument to be executed by the command/program. That leaves space for some variations of the classic channelling attack.
+The practical case in terms of this technique is combining arguments and filenames, as different channels into single entity, because of using shell wildcards.
+Read the full paper here: Back To The Future: Unix Wildcards Gone Wild
+Usage
+
+
+
+
+usage: wildpwn.py [h] [file FILE] payload folder
+
+Tool to generate unix wildcard attacks
+
+positional arguments:
+  payload      Payload to use: (combined  tar  rsync)
+  folder       Where to write the payloads
+
+optional arguments:
+  h, help   show this help message and exit
+  file FILE  Path to file for taking ownership / change permissions. Use it
+               with combined attack only.
+
+
+
+
+123456789101112
+
+usage: wildpwn.py [h] [file FILE] payload folderTool to generate unix wildcard attackspositional arguments:payloadPayload to use: (combined  tar  rsync)folder Where to write the payloadsoptional arguments:h, help show this help message and exitfile FILEPath to file for taking ownership / change permissions. Use it with combined attack only.
+
+
+
+
+Usage Example
+
+
+
+
+ ls lh /tmp/verysecretfile
+rwrr 1 root root 2048 jun 28 21:37 /tmp/verysecretfile
+
+ ls lh ./pwnme/
+drwxrwxrwx 2 root root 4,0K jun 28 21:38 .
+[...]
+rwrwr 1 root root    1024 jun 28 21:38 secretfile1
+rwrwr 1 root root    1024 jun 28 21:38 secretfile2
+[...]
+
+ python wildpwn.py file /tmp/verysecretfile combined ./pwnme/
+[!] Selected payload: combined
+[] Done! Now wait for something like: chown uid:gid   (or)  chmod [perms]  on ./pwnme/. Good luck!
+
+[...time passes / some cron gets executed...]
+
+ chmod 000  (for example)
+
+[...back with the unprivileged user...]
+
+ ls lha ./pwnme/
+[...]
+rwxrwxrwx 1 root root    1024 jun 28 21:38 secretfile1
+rwxrwxrwx 1 root root    1024 jun 28 21:38 secretfile2
+[...]
+
+ ls lha /tmp/verysecretfile
+rwxrwxrwx 1 root root 2048 jun 28 21:38 /tmp/verysecretfile
+
+
+
+
+12345678910111213141516171819202122232425262728
+
+ ls lh /tmp/verysecretfilerwrr 1 root root 2048 jun 28 21:37 /tmp/verysecretfile ls lh ./pwnme/drwxrwxrwx 2 root root 4,0K jun 28 21:38 .[...]rwrwr 1 root root1024 jun 28 21:38 secretfile1rwrwr 1 root root1024 jun 28 21:38 secretfile2[...] python wildpwn.py file /tmp/verysecretfile combined ./pwnme/[!] Selected payload: combined[] Done! Now wait for something like: chown uid:gid (or)chmod [perms]  on ./pwnme/. Good luck![...time passes / some cron gets executed...] chmod 000  (for example)[...back with the unprivileged user...] ls lha ./pwnme/[...]rwxrwxrwx 1 root root1024 jun 28 21:38 secretfile1rwxrwxrwx 1 root root1024 jun 28 21:38 secretfile2[...] ls lha /tmp/verysecretfilerwxrwxrwx 1 root root 2048 jun 28 21:38 /tmp/verysecretfile
+
+
+
+
+You can download wildpwn here:
+wildpwn.py
+OR read more here.
+Share45Tweet516Share51107 Shares "
+"
+If 1987 was a huge leap in developing and distributing malware, the worst was yet to come in 1988. As the computer industry started to take off, so did malware writers.  
+The first notable virus  outbreak in 1988 was
+triggered by the Suriv3 virus on
+May 13th. The event is also known as the Black Friday and antivirus
+companies are still going into full alert each time the 13th of any month falls
+on a Friday. Suriv3 infected many enterprises, government offices and academic
+institutions around the world, but caused extensive damage in the US, Europe and the Near
+ East. 
+Following the
+massive infections in 1987 and 1988, a couple of companies stared developing
+antivirus utilities. However, such small companies with two to five employees
+would only produce simplistic string scanners, able to detect unique virus code
+sequences. Basic antivirus software was often bundled with immunizers (pieces
+of software that modified programs in order to trick viruses into thinking that
+they had already been infected). Although immunizers were highly efficient for
+specific viruses, they did not offer proactive defense against unknown security
+threats. Moreover, as viruses started to bloom, antivirus companies were unable
+to issue immunizers quickly enough for all of them.
+Although the vast
+majority of antivirus products were sold for negligibly low prices, computer
+users did not rush to get protected. In addition to that, antivirus software
+could not be updated easily, as the Internet was still in its early days. This
+meant that new viruses could easily escape string scanners
+On April 22, the
+first dedicated antivirus forum went live on the Usenet network. Called the
+VirusL forum, it was founded by Ken van Wyk, Fred Cohens friend and
+colleague. 
+However, virus
+creators have also begun gearing up for the battle. 1988 marks the birth date
+of a new type of malware, in the form of a virus construction kit, designed for
+the Atari ST. The doityourself utility allowed beginner virus creators to
+easily build viruses with miscellaneous features using a simple and intuitive
+interface. 
+Worm.Macos.Macmag.A was
+the first important computer virus written for Macintosh computers. It also
+came with a number of programming innovations that made it extremely efficient.
+It all began in February 1988, when a file Apples HyperCard software turned up
+in a Compuserve online forum. When users would download and open it, the file
+would secretly install a system extension (The system extension is an INIT resource that had been copied
+into the system folder, which means that a program is automatically executed
+upon startup.) which made the computer display a New Age peace message on every startup. It
+seems that the virus had been written by Artemus Barnoz
+(known as Richard Brandow. Although Brandow claimed authorship, he commissioned the programming
+part to a professional software developer called Drew Davidson) and Boris Wanowitch, that were the editors of both
+the Canadian computer magazine MacMag and the Computer Graphics Conspiracy New
+Age publication. 
+The virus was
+rather harmless, given the fact that its payload would only display a peace
+message that read:
+RICHARD
+BRANDOW, publisher of MacMag, and its entire staff
+would like to take this opportunity to convey their UNIVERSAL MESSAGE OF PEACE
+to all Macintosh users around the world.
+However, the peace
+message was at least questionable, given the medium the two colleagues used to
+spread it. The virus went off circulation on March 2nd(The date picked by the authors for the final run was not chosen at
+random: March 2, 1988 was the first anniversary of Macintosh II line. More than
+that, a coding bug caused Macintosh II systems to crash),when it would appear once and then it would delete itself from the infected
+system. 
+History repeats itself, they say, and this seems to have been the
+case with Denzuko.A, a virus
+written by Indonesian programmer Denny Yanuar
+Ramdhani. Just as the Reaper would
+seek and destroy the Creeper virus in
+early seventies, Denzuko.A (The virus is also known as Den Zuk with its Ohio and Hacker variants) would look for instances of the Brain
+virus, then swiftly remove them from the infected computer. However, Denzuko.A
+was more than an antivirus utility, given the fact that it would replace Brain
+with copies of itself. The virus lay hidden on track 40 on the infected
+diskettes, but its programmer seems to have made a programming error, since
+360KB diskettes only have 39 tracks. More than that, the virus is not able to
+infect 1.2M or 3.5 diskettes correctly 
+instead, it would destroy all the stored data on it. Upon successful infection Denzuko.A would change the (c)
+Brain label with Y
+
+Tags1988 antivirus computer infected virus 
+"
+"
+Darkleech is longrunning campaign that uses exploit kits (EKs) to deliver malware. First identified in 2012, this campaign has used different EKs to distribute various types of malware during the past few years. We reviewed the most recent iteration of this campaign in March 2016 after it had settled into a pattern of distributing ransomware. Now dubbed pseudoDarkleech, this campaign has undergone significant changes since the last time we examined it. Our blog post today focuses on the evolution of pseudoDarkleech traffic since March 2016.
+Chain of events
+Successful infections by the pseudoDarkleech campaign have generally followed a set sequence of events. This happens regardless of the EK used or the payload delivered. The sequence is:
+
+Step 1: Victim host views a compromised website with malicious injected script.
+Step 2: The injected script generates an HTTP request for an EK landing page.
+Step 3: The EK landing page determines if the computer has any vulnerable browserbased applications.
+Step 4: The EK sends an exploit for any vulnerable applications (for example, outofdate versions of Internet Explorer or Flash player).
+Step 5: If the exploit is successful, the EK sends a payload and executes it as a background process.
+Step 6: The victims host is infected by the malware payload.
+
+In some cases, the pseudoDarkleech campaign has used a gate between the compromised website and the EK landing page. However, we far more frequently see injected script from the compromised website lead directly to the EK landing page. To get a better idea of the relationship between EKs and campaigns, see our previous blog on EK fundamentals.
+
+Figure 1: Chain of events for the pseudoDarkleech campaign.
+EKs used by pseudoDarkleech
+The pseudoDarkleech campaign used Angler EK until that EK disappeared in midJune 2016. Like many other campaigns, pseudoDarkleech switched to Neutrino EK after Angler EK disappeared.
+PseudoDarkleech stayed with Neutrino EK until midSeptember 2016. At that point, Neutrino EK ceased operations. The pseudoDarkleech campaign then switched to Rig EK, and it has stay with Rig since then. We still see indications of a Neutrino EK variant, but at much reduced levels compared to before.
+Searching for EK activity in AutoFocus, we saw a significant drop in Neutrino and a corresponding rise in Rig activity starting in midSeptember 2016.
+
+Figure 2: Hits on Neutrino and Rig EK activity in September 2016.
+Payloads sent by pseudoDarkleech
+When we last reviewed the pseudoDarkleech campaign in March 2016, it was delivering TeslaCrypt ransomware. Since that time, pseudoDarkleech has changed the ransomware payloads it delivers. In April 2016, this campaign switched to CryptXXX ransomware after TeslaCrypt shut down and released its master decryption key. By August 2016, pseudoDarkleech had switched to a new variant of CryptXXX ransomware dubbed CrypMIC.
+By October 2016, pseudoDarkleech switched to distributing Cerber ransomware, and it has continued sending Cerber as of early December 2016. Below is a summary of EKs and payloads used by the pseudoDarkleech campaign so far in 2016.
+
+Jan 2016: Angler EK to deliver CryptoWall ransomware
+Feb 2016: Angler EK to deliver TeslaCrypt ransomware
+Apr 2016: Angler EK to deliver CryptXXX ransomware
+Jun 2016: Neutrino EK to deliver CryptXXX ransomware
+Aug 2016: Neutrino EK to deliver CrypMIC ransomware
+Sep 2016: Rig EK to deliver CrypMIC ransomware
+Oct 2016: Rig EK to deliver Cerber ransomware
+
+Patterns of injected script
+Any EK infection chain almost always starts with injected script from a particular campaign in a page from a compromised website. These pages are from legitimate websites that have been compromised and are being used by the campaign.
+When we last examined injected script by the pseudoDarkleech campaign, it was a large block of heavilyobfuscated text that averaged from 12,000 to 18,000 characters in size. It remained large and obfuscated through June 2016.
+
+Figure 3: Start of injected pseudoDarkleech script in page from compromised website in June 2016.
+
+Figure 4: Middle of injected pseudoDarkleech script in page from compromised website in June 2016.
+
+Figure 5: End of injected pseudoDarkleech script in page from compromised website in June 2016.
+But by July 1st 2016, injected pseudoDarkleech script stopped using obfuscation and became a straightforward iframe. This iframe has a span value that puts it outside the viewable area of your web browsers window.
+
+Figure 6: Example of injected pseudoDarkleech script from July 2016.
+The injected script has changed slightly since then, but it remains short and unobfuscated as of early December 2016.
+
+Figure 7: Example of injected pseudoDarkleech script from December 2016.
+Conclusion
+With the recent rise of ransomware, we continue to see different vectors used in both targeted attacks and widescale distribution. EKs are one of many attack vectors for ransomware. The pseudoDarkleech campaign has been a prominent distributer of ransomware through EKs, and we predict this trend will continue into 2017.
+Domains, IP addresses, and other indicators associated with this campaign are constantly changing. Customers of Palo Alto Networks are protected from the pseudoDarkleech campaign through our nextgeneration security platform, including Traps, our advanced endpoint solution that prevent EKs from compromising a system. We will continue to investigate this campaign, inform the community of our results, and further enhance our threat prevention.
+            "
+"
+While you were out  CybercrimeasaService is finally taking off and a 400 will get you in the hacking business. Such a mentality speaks for an outdated situational awareness.Cybercrime as a service originally started in the form of valueadded postpurchase services, the now ubiquitous lower detection rate management for a malware binary, and antiabuse domain hosting for the command and control interface, several years ago. As far as the 400 required as an entry barrier into cybercrime no longer exists. In reality, pirated copies each and every web malware exploitation kit including the proprietary crimeware kits are becoming more widespread these days. The cybercrime economy has not only matured into a sophisticated servicesdriven marketplace a long time ago, but also, nowadays we can clearly see how standardizing the exploitation approach is inevitably resulting in efficiencies  think web malware exploitation kits with diverse exploits sets and massive SQL injection attacks. The underground economy is in fact so vibrant, that the existing monoculture on the crimeware front is already allowing cybercriminals to hijack the crimeware botnets of other cybercriminals unaware of the fact that theyre running an oudated copy of their kit.Followed by Zeus and Adrenalin, its time to profile Limbo, an alternative crimeware kit thats been publicly available for purchase since 2007. Interestingly, none of these kits can compare to the current market share of Zeus, perhaps the most popular crimeware kit these days, a development largely driven by the community build around Zeus, and the major enhancements introduced within the kit on behalf of thirdparty developers.Heres what Limbo is all about:It works on the principle of the addin to Internet Explorer, not visible in the processes to make the logs being hidden from the firewall redirector, and other programs to monitor network activity. Supplied as a loader, which is removed after the launch, unpacks itself and make all necessary entries in the registry. When you first start IE it cleans Cookies, reads Protected Storage (Autosaved passwords in IE, Outlook passwords, etc.) Whenever a user visits the monitored sites, Limbo intercepts the parameters which are later on transmitted to the server once the user presses the browser key. Commands: Update the binary   Launch arbitrary exe file   Update configurator (xml file available)   Cleaning Cookies   Remove Limbo   Theft of keys for Bank of America, as well as the keys of those banks that have moved to a system of keys   Exclude all the keys for Bank of America, as well as other banks of keys (control questions asked again, and you can intercept the answers to them)  Add to your hosts  to block a certain site (it seems as if it does not boot at all)   Reboot Windows   Destroy Windows  Main features: Grabs data from forms, including data around forms (all in a row or a pattern described in the configuration file)   Logging of keystrokes in the browser, at the time when the user enters something in the edit form (it is sometimes useful  for example when the entered data is encrypted after submit form)  Logging of virtual keyboards (universal technology was developed for the Turkish and Australian banks)   Theft of keys (Bank of America, as well as other banks, whose protection is keybased)  are in the archive, the archive is created from the user on the computer.  Delete key (Bank of America, as well as other banks, whose protection is built based on keys)  it is useful to force the user to enter answers to security questions  Scam page redirection (the fake of same page with the substitution of the address bar of IE and the status bar on infected hosts)   Harvesting of emails (including the address book user)  by request includes this possibility   Set the filter for sites that do not need to intercept   Simple injectsbased system (paste your text input field on a particular site  for example, to ask for a pin Holder)   Smart injects system  blocking form until user input is not injected into the data fields (checking for the countwoo characters of their type  the numbers or letters)  TANs grabbing  vital for the German sites  Paid only features: A hidden transfer (transfer of command from the admin panel)  HARDsharpen under one bank   Autocomplete of hijacked session (eg when a user makes a transfer, useful if the transfer requires the SMS confirmation. Strictly tied to a particular bank only. PHP based admin includes: Mapping of users to the admin   Directing teams selected users   Delete commands and users   Showing the status of the command   Mapping and IP users Ability to delete tax   Display the size of logs   Search for logs   Archiving of logs   Filter by country   Possibility of sending logs to email   Statistics on infection   View collected emails   The giving of the notes selected users   The last call   Displaying a page by page (say 200 records per page)   An opportunity to log everything in one file (optional)   Sorting of logs according to different criteria   Delete all logs   Have the opportunity to log into mysql, as well as the ability to search for him there is (an order of magnitude faster search) These commands are downloaded to the host after a certain period of time and performed in the admin panel you can see the status of commands for a specific user  download  downloaded but not executed  implemented.With crimeware in the middle, no SSL/twofactor based authentication can ensure a nontransparent to the eyes of the cybercriminal transaction.Related posts:Crimeware in the Middle  AdrenalinCrimeware in the Middle  Zeus 76Service  Cybercrime as a Service Going MainstreamZeus Crimeware as a Service Going MainstreamModified Zeus Crimeware Kit Gets a Performance BoostModified Zeus Crimeware Kit Comes With Builtin MP3 PlayerZeus Crimeware Kit Gets a Carding LayoutThe Zeus Crimeware Kit Vulnerable to Remotely Exploitable Flaw
+
+"
+"
+
+Early this year, Trend Micro researcher Kyle Wilhoitobservedan increase in the use of AutoIt in several hacker tools and malware, which were typically uploaded on sites like Pastebin and Pastie. In the saidblog post, Kyle noted that because of AutoIts easytolearn language, we can expect more threat actors to incorporate this scripting language in their schemes. Now weve learned that he was right, as we are seeing more malware using AutoIt.
+We recently encountered a ZeuS variant that arrives with a malicious AutoIt file and garbage files. It arrives via spammed email message and the unpacked file it arrives with is detected asTSPYZBOT.SMIG. Like any ZeuS/ZBOT variant, TSPYZBOT.SMIG drops a configuration file that contains a list of its targeted banks and other financial sites. It also steals information from different FTP sites and steals personal certificates from the infected system
+In addition, we also spotted two other malware that use the same packer, which Trend Micro detects as TSPYCHISBURG.A and TSPYEUPUDS.A. When TSPYCHISBURG.A is loaded into memory, it steals user names and passwords from Yahoo, Hotmail, Pidgin, FileZilla, and VPN/ISP credentials among others. Similarly, TSPYEUPUDS.Agets data from the infected system such as user ID, browser and version, and OS version. It also steals information like user names and passwords stored in certain browsers. Cybercriminals may use the gathered information to sell in the underground cybercrime or to launch other attacks.
+The new AutoIt packer tool code found online contains the ability to propagate via removable drives, has installation routines and checks installed antivirus software on the system. Furthermore, its code has garbage codes and obfuscated functions to make it harder to analyze. And while these malware (TSPYCHISBURG.A and TSPYEUPUDS.A) are old, they remain to be an effective means to steal information especially with the added capability of the AutoIt packer.
+With the incorporation of malware to a scripting language such as AutoIt, it makes analysis arduous especially if there is no decompiler that can aid in the analysis. AutoIt is also used by normal applications, thus there is need for malware which are compressed to be unpacked so as to get only the malicious routines/behavior.
+To avoid these malware, we advise users to be wary of the email messages they receive and avoid executing the attachment(s) that goes along with them. Users are also encouraged to regularly update their systems and antimalware software to ensure protection. Trend Micro detects and deletes all the malware reported in this post through the Smart Protection Network.
+With additional insights from Rika Gregorio. 
+
+
+Related posts:
+Understanding Code Signing Abuse in Malware Campaigns 
+Not Only Botnets: Hacking Group in Brazil Targets IoT Devices With Malware 
+
+
+
+ Learn how to protect Enterprises, Small Businesses, and Home Users from ransomware:ENTERPRISE SMALL BUSINESSHOME
+ 
+
+           Tags: AutoITMalwareonline banking malwareZeuS/ZBOT
+
+"
