@@ -1,5 +1,5 @@
 # CTIKG_research
-replication of ctikg
+A replication of other research - CTIKG (for edu purpose)
 
 To set up local LLMs:
 https://huggingface.co/01-ai/Yi-1.5-6B-Chat
